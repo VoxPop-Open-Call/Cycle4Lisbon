@@ -1,0 +1,145 @@
+definitions:
+  caches:
+    go: $GOPATH
+    dashboard-npm: $HOME/.npm
+    test-npm: $HOME/.npm
+    cypress: $HOME/.cache/Cypress
+  services:
+    docker:
+      memory: 2048
+    postgres:
+      image: postgres
+      variables:
+        POSTGRES_DB: "cycleforlisbon"
+        POSTGRES_USER: "postgres"
+        POSTGRES_PASSWORD: "test"
+
+api_tests: &api_tests
+  name: "API tests"
+  image: golang:1.20
+  services:
+    - postgres
+  caches:
+    - go
+  script:
+    - cd api
+
+    # Install deps
+    - go mod download
+    - make install
+
+    # Check formatting
+    - if [ "$(gofmt -s -l . | wc -l)" -gt 0 ]; then exit 1; fi
+
+    # Use CGO_ENABLED=0 since its also what we need in docker
+    # to produce a fully static executable.
+    - export CGO_ENABLED=0
+
+    # Build the project
+    - make
+
+    # Run tests
+    - make test
+  artifacts:
+    - api/main.out
+
+dashboard_tests: &dashboard_tests
+  name: "Dashboard tests"
+  image: node:19
+  caches:
+    - dashboard-npm
+  script:
+    - cd dashboard
+
+    # Install deps
+    - npm ci
+
+    # Lint
+    - npm run lint
+    - npm run prettier
+
+    # Build the project
+    - npm run build
+
+    # Run tests
+    - npm run test
+  artifacts:
+    - dashboard/build/**
+
+e2e_tests: &e2e_tests
+  name: "End-to-end tests"
+  image: cypress/base:16.18.1
+  services:
+    - postgres
+  caches:
+    - test-npm
+    - cypress
+  script:
+    # Create Dex database
+    - apt-get update && apt-get -y install postgresql-client
+    - psql -c "CREATE DATABASE dex" \
+        "host=127.0.0.1 port=5432 user=postgres dbname=postgres password=test"
+
+    # Start api server in background
+    - cd api
+    - export API_ADMIN_EMAIL=$ADMIN_EMAIL
+    - export API_ADMIN_PASSWD=$ADMIN_PASSWD
+    - echo $FIREBASE_CRED_FILE | base64 -d > .firebase.json
+    - ./main.out -dex .dexrc.example.json -firebase .firebase.json &
+
+    # Start frontend in background
+    - cd ../dashboard
+    - npm ci
+    - npm run preview &
+
+    # Run e2e tests
+    - cd ../test
+    - npm ci
+    - npm run lint
+    - npm run prettier
+    - export CYPRESS_ADMIN_EMAIL=$ADMIN_EMAIL
+    - export CYPRESS_ADMIN_PASSWD=$ADMIN_PASSWD
+    - npm test
+  artifacts:
+    - test/cypress/screenshots/**
+    - test/cypress/videos/**
+
+deploy_dev: &deploy_dev
+  name: Deploy to Dev
+  deployment: Dev
+  image: atlassian/pipelines-awscli:latest
+  services:
+    - docker
+  script:
+    - docker version
+
+    # Deploy main cloudformation template
+    # - export PARAMETERS=$(cat ./aws/cloudformation/dev.json)
+    - aws cloudformation package --template-file aws/main.yaml --s3-bucket $STACKNAME-dev-deploy --region us-east-1 --output-template-file tmp-template.yaml
+    - aws cloudformation deploy --template-file tmp-template.yaml --stack-name $STACKNAME --region $AWS_DEFAULT_REGION --capabilities CAPABILITY_NAMED_IAM
+    - rm tmp-template.yaml
+
+    - echo $API_ENV_FILE | base64 -d > api/.env
+    - echo $DEX_RC_FILE | base64 -d > api/.dexrc.json
+    - echo $FIREBASE_CRED_FILE | base64 -d > api/.firebase.json
+    - aws/scripts/deploy-api.sh
+
+    - echo $DASHBOARD_ENV_FILE | base64 -d > dashboard/.env
+    - export RELEASE_NAME=$(git rev-parse HEAD)
+    - aws/scripts/deploy-dashboard.sh
+
+pipelines:
+  default:
+    - parallel: &tests
+        - step: *api_tests
+        - step: *dashboard_tests
+    - step: *e2e_tests
+    - step:
+        <<: *deploy_dev
+        trigger: manual
+
+  branches:
+    master:
+      - parallel: *tests
+      - step: *e2e_tests
+      - step: *deploy_dev

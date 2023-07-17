@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  Environment:
+    Type: String
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  FilesBucketName:
+    Type: String
+  SESIdentity:
+    Type: String
+  SESFromName:
+    Type: String
+
+Resources:
+  # User with the necessary permissions for the AWS client in the API.
+  APIAdminUser:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: !Sub ${StackName}-${Environment}-api-admin-user
+      Policies:
+        # Allow access to the S3 bucket.
+        - PolicyName: FilesBucketAdminPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:DeleteObject
+                Resource: !Join
+                  - ""
+                  - - "arn:aws:s3:::"
+                    - !Ref FilesBucketName
+                    - "/*"
+        # Allow access to send emails with SES.
+        - PolicyName: SESAdminPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ses:SendEmail
+                  - ses:SendRawEmail
+                Resource: "*"
+                Condition:
+                  StringLike:
+                    "ses:FromAddress": !Sub "*@${SESIdentity}"
+                  StringEquals:
+                    "ses:FromDisplayName": !Ref SESFromName
+
+  APIAdminUserAccessKey:
+    Type: AWS::IAM::AccessKey
+    Properties:
+      Status: Active
+      UserName: !Ref APIAdminUser
+
+  APIAdminUserSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub ${StackName}-${Environment}-api-admin-user-secret
+      SecretString: !Sub '{"ACCESS_KEY":"${APIAdminUserAccessKey}","SECRET_KEY":"${APIAdminUserAccessKey.SecretAccessKey}"}'
+
+Outputs:
+  APIAdminUserSecret:
+    Value: !Ref APIAdminUserSecret

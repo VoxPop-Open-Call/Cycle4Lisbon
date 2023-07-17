@@ -1,0 +1,77 @@
+div .headerContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div .breadcrumbContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .breadcrumbActionStyle {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #1d2127;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+div .breadcrumbCurrentStyle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b29e;
+}
+
+div .cardStyle {
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px RGBA(0, 0, 0, 0.2);
+  padding: 0px;
+}
+
+div .cardBodyStyle {
+  padding: 28px 30px;
+}
+
+div .contentTitleDiv {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1d2127;
+  margin-bottom: 2px;
+}
+
+div .contentSubtitleContainerDiv {
+  margin-bottom: 32px;
+}
+
+div .descriptionStyle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d2127;
+}
+
+div .imageStyle {
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+div .endorseContainerDiv {
+  margin-top: 50px;
+}
+
+div .endorseText {
+  font-weight: 400;
+  font-size: 14px;
+  color: RGBA(29, 33, 39, 0.6);
+}
+
+div .endorseImg {
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+}

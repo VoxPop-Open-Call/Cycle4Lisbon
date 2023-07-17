@@ -1,0 +1,4729 @@
+[
+  {
+    "id": 83403,
+    "type": "event",
+    "title": { "rendered": "O Professor Sapo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/01/professor-sapo.jpg",
+    "subtitle": ["Festival PLAY"],
+    "subject": "cinema",
+    "string_dates": ["31 mar\u00e7o a 2 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Uma turma comum, alunos comuns e um professor normal. Ou n\u00e3o? Quando se descobre que o professor por vezes se transforma em sapo, talvez a vida destes alunos nunca mais venha a ser a mesma."
+    ],
+    "venue": {
+      "lu-ca-teatro-luis-de-camoes": {
+        "id": 1244,
+        "slug": "lu-ca-teatro-luis-de-camoes",
+        "name": "LU.CA - Teatro Lu\u00eds de Cam\u00f5es"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-professor-sapo/",
+    "occurences": ["2023-03-31", "2023-04-01", "2023-04-02"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-04-02",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"3\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 85351,
+    "type": "event",
+    "title": { "rendered": "S\u00f3nar Lisboa 2023" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/DianaOliveira.jpg",
+    "subtitle": ["M\u00fasica, criatividade & tecnologia"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o a 2 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Desde a sua cria\u00e7\u00e3o, em 1994, em Barcelona, o <em>S\u00f3nar</em> j\u00e1 se realizou mais de 70 vezes por todo o mundo, em cidades como Hong Kong, Nova Iorque ou Buenos Aires. O ano passado, o conceito est..."
+    ],
+    "venue": {
+      "parque-eduardo-vii-2": {
+        "id": 2774,
+        "slug": "parque-eduardo-vii-2",
+        "name": "Parque Eduardo VII"
+      },
+      "pavilhao-carlos-lopes": {
+        "id": 2036,
+        "slug": "pavilhao-carlos-lopes",
+        "name": "Pavilh\u00e3o Carlos Lopes"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "eletronica": {
+        "id": 1309,
+        "slug": "eletronica",
+        "name": "eletr\u00f3nica"
+      },
+      "festival": { "id": 23, "slug": "festival", "name": "festival" }
+    },
+    "link": "https://www.agendalx.pt/events/event/sonar-lisboa-2023/",
+    "occurences": ["2023-03-31", "2023-04-01", "2023-04-02"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-04-02",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85644,
+    "type": "event",
+    "title": { "rendered": "Inland: Guardar os Olhos no Bolso" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/AMJP1_Julio-Pomar_Catch-scaled-e1677083114155.jpg",
+    "subtitle": "",
+    "subject": "artes",
+    "string_dates": ["31 mar\u00e7o a 18 junho 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<em>Inland Journal</em> \u00e9 uma publica\u00e7\u00e3o independente, criada em 2015, pelos artistas Andr\u00e9 Cepeda e Eduardo Matos. Dedica-se \u00e0 publica\u00e7\u00e3o de textos e escritos de artistas.\r\n\r\nInserida no progr..."
+    ],
+    "venue": {
+      "atelier-museu-julio-pomar": {
+        "id": 597,
+        "slug": "atelier-museu-julio-pomar",
+        "name": "Atelier-Museu J\u00falio Pomar"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "coletiva": { "id": 92, "slug": "coletiva", "name": "coletiva" }
+    },
+    "link": "https://www.agendalx.pt/events/event/inland-guardar-os-olhos-no-bolso/",
+    "occurences": [
+      "2023-03-31",
+      "2023-04-01",
+      "2023-04-02",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-16",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-23",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-04-30",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-07",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-14",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-21",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-27",
+      "2023-05-28",
+      "2023-05-30",
+      "2023-05-31",
+      "2023-06-01",
+      "2023-06-02",
+      "2023-06-03",
+      "2023-06-04",
+      "2023-06-06",
+      "2023-06-07",
+      "2023-06-08",
+      "2023-06-09",
+      "2023-06-10",
+      "2023-06-11",
+      "2023-06-13",
+      "2023-06-14",
+      "2023-06-15",
+      "2023-06-16",
+      "2023-06-17",
+      "2023-06-18"
+    ],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-06-18",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86932,
+    "type": "event",
+    "title": { "rendered": "Ciclo Lucrecia Martel" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/rapariga-santa-e1678873225695.png",
+    "subtitle": ["Novas c\u00f3pias restauradas"],
+    "subject": "cinema",
+    "string_dates": ["31 mar\u00e7o a 10 abril 2023"],
+    "string_times": "",
+    "description": [
+      "Lucrecia Martel, uma das mais proeminentes cineastas contempor\u00e2neas, \u00e9 refer\u00eancia na produ\u00e7\u00e3o audiovisual da Am\u00e9rica Latina e nome fundamental do novo cinema argentino. O reconhecimento internac..."
+    ],
+    "venue": {
+      "espaco-nimas": {
+        "id": 405,
+        "slug": "espaco-nimas",
+        "name": "Cinema Nimas"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "ciclo": { "id": 56, "slug": "ciclo", "name": "ciclo" },
+      "lucrecia-martel": {
+        "id": 5646,
+        "slug": "lucrecia-martel",
+        "name": "Lucrecia Martel"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/ciclo-lucrecia-martel/",
+    "occurences": [
+      "2023-03-31",
+      "2023-04-03",
+      "2023-04-04",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-10"
+    ],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-04-10",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87163,
+    "type": "event",
+    "title": { "rendered": "Wasted Rita" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/C-XM7WsU-scaled.jpeg",
+    "subtitle": ["The desperation of the desperate..."],
+    "subject": "artes",
+    "string_dates": ["31 mar\u00e7o a 27 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<em>The Desperation of the Desperate Desperately Despairing for this Desperation to Heal</em> \u00e9 a nova mostra individual de Wasted Rita, que apresenta obras in\u00e9ditas ocupando ambos os espa\u00e7os expos..."
+    ],
+    "venue": {
+      "galeria-underdogs": {
+        "id": 545,
+        "slug": "galeria-underdogs",
+        "name": "Galeria Underdogs"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "escultura": { "id": 65, "slug": "escultura", "name": "escultura" },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" },
+      "instalacao": {
+        "id": 72,
+        "slug": "instalacao",
+        "name": "instala\u00e7\u00e3o"
+      },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/wasted-rita-2/",
+    "occurences": [
+      "2023-03-31",
+      "2023-04-01",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-27"
+    ],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-05-27",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85193,
+    "type": "event",
+    "title": { "rendered": "'Os Faroleiros' de Maurice Mariaud" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/faroleiros_11051.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+    "subtitle": ["Cineconcerto"],
+    "subject": "cinema, m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "<em>Estreado em 1922, esta raridade do cinema mudo portugu\u00eas \u00e9 apresentado com uma nova composi\u00e7\u00e3o sonora, encomendada pelo Batalha Film Center ao compositor Daniel Moreira e interpretada ao vivo..."
+    ],
+    "venue": {
+      "culturgest": { "id": 303, "slug": "culturgest", "name": "Culturgest" }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" },
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "cineconcerto": {
+        "id": 3733,
+        "slug": "cineconcerto",
+        "name": "cineconcerto"
+      },
+      "cinema-mudo": {
+        "id": 4296,
+        "slug": "cinema-mudo",
+        "name": "cinema mudo"
+      },
+      "cinema-portugues": {
+        "id": 1706,
+        "slug": "cinema-portugues",
+        "name": "cinema portugu\u00eas"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/os-faroleiros-de-maurice-mariaud/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"12\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85305,
+    "type": "event",
+    "title": { "rendered": "Adriana Ferreira" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/Adriana-Ferreira.jpg",
+    "subtitle": ["Fado de Cada Um"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 19h",
+    "description": [
+      "Uma flauta narra a hist\u00f3ria atrav\u00e9s da m\u00fasica de Frederico de Freitas. Parte-se das colabora\u00e7\u00f5es deste compositor para cinema, desde <em>A Severa\u00a0</em>at\u00e9 Am\u00e1lia Rodrigues em\u00a0<em>Fado, Hist\u00f3..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-de-camara": {
+        "id": 1557,
+        "slug": "musica-de-camara",
+        "name": "m\u00fasica de c\u00e2mara"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/adriana-ferreira/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"10\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85632,
+    "type": "event",
+    "title": { "rendered": "Guitarras do Gr\u00e1cio" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2019/12/guitarra.jpg",
+    "subtitle": ["e convidados"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o a 21 abril 2023"],
+    "string_times": "sex: 19h15",
+    "description": [
+      "O evento\u00a0<em>Guitarras do Gr\u00e1cio</em>\u00a0visa divulgar a vida e a obra do Mestre Gilberto Gr\u00e1cio (1936-2021), apontado como \u201co mais antigo e conceituado construtor de guitarras\u201d em Portugal. Gilb..."
+    ],
+    "venue": {
+      "livraria-barata-lugar-de-cultura": {
+        "id": 4349,
+        "slug": "livraria-barata-lugar-de-cultura",
+        "name": "Livraria Barata - Lugar de Cultura"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" },
+      "guitarra-portuguesa": {
+        "id": 1475,
+        "slug": "guitarra-portuguesa",
+        "name": "guitarra portuguesa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/guitarras-do-gracio-8/",
+    "occurences": ["2023-03-31", "2023-04-21"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-04-21",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84446,
+    "type": "event",
+    "title": { "rendered": "Carmen Souza" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/Carmen-Souza-Foto-1-\u00a9Patricia-Pascal.jpg",
+    "subtitle": ["Interconnectedness"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 19h30",
+    "description": [
+      "A luso-caboverdiana Carmen Souza traz o novo disco, <em>Interconnectedness</em>, ao Museu do Oriente. O d\u00e9cimo \u00e1lbum da artista (editado no passado m\u00eas de janeiro), exp\u00f5e as vulnerabilidades trazi..."
+    ],
+    "venue": {
+      "museu-do-oriente": {
+        "id": 153,
+        "slug": "museu-do-oriente",
+        "name": "Museu do Oriente"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-cabo-verdiana": {
+        "id": 4477,
+        "slug": "musica-cabo-verdiana",
+        "name": "m\u00fasica cabo-verdiana"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/carmen-souza/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"20\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84708,
+    "type": "event",
+    "title": { "rendered": "O meu nariz \u00e9 ar\u00e1be" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/NARIZ_imagem-1.png",
+    "subtitle": ["Cia. JGM"],
+    "subject": "teatro",
+    "string_dates": ["31 mar\u00e7o a 2 abril 2023"],
+    "string_times": "sex: 21h; s\u00e1b: 21h; dom: 17h",
+    "description": [
+      "<em>Ao passar junto de uma vide, esta arrebatou-lhe o manto. Indignado, o passante pergunta-lhe por que raz\u00e3o o odiava ela t\u00e3o veementemente. Ao que ela lhe respondeu: j\u00e1 que os teus ossos se abebe..."
+    ],
+    "venue": {
+      "teatro-iberico-2": {
+        "id": 328,
+        "slug": "teatro-iberico-2",
+        "name": "Teatro Ib\u00e9rico"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "companhia-joao-garcia-miguel": {
+        "id": 1059,
+        "slug": "companhia-joao-garcia-miguel",
+        "name": "Companhia Jo\u00e3o Garcia Miguel"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-meu-nariz-e-arabe/",
+    "occurences": ["2023-03-31", "2023-04-01", "2023-04-02"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-04-02",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85740,
+    "type": "event",
+    "title": { "rendered": "Concerto Coral-Sinf\u00f3nico" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2019/03/tnsc-1.jpg",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "A produ\u00e7\u00e3o camoniana foi inesgot\u00e1vel fonte de inspira\u00e7\u00e3o para Vianna da Motta. A cantata\u00a0<em>Invoca\u00e7\u00e3o do Poema de Lu\u00eds de Cam\u00f5es</em> <em>Os Lus\u00edadas</em>, para coro e orquestra, \u00e9 um exe..."
+    ],
+    "venue": {
+      "teatro-nacional-de-sao-carlos": {
+        "id": 15,
+        "slug": "teatro-nacional-de-sao-carlos",
+        "name": "Teatro Nacional de S\u00e3o Carlos"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-classica": {
+        "id": 950,
+        "slug": "musica-classica",
+        "name": "cl\u00e1ssica"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/concerto-coral-sinfonico/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"20 \u20ac a 30\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86889,
+    "type": "event",
+    "title": { "rendered": "O Pranto de Maria Parda" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/31_O-pranto-de-Maria-Parda1_Teatro-Livre.jpg",
+    "subtitle": ["Gil Vicente/ Teatro Livre"],
+    "subject": "teatro",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "21h00",
+    "description": [
+      "Datada de 1522,\u00a0<em>O Pranto de Maria Parda</em>\u00a0foi a primeira encomenda feita por D. Jo\u00e3o III a Gil Vicente ap\u00f3s as cerim\u00f3nias f\u00fanebres de D. Manuel, falecido em dezembro de 1521.\r\n\r\nGil Vicen..."
+    ],
+    "venue": {
+      "museu-de-lisboa-teatro-romano": {
+        "id": 694,
+        "slug": "museu-de-lisboa-teatro-romano",
+        "name": "Museu de Lisboa - Teatro Romano"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "ar-livre": { "id": 27, "slug": "ar-livre", "name": "ar livre" },
+      "dia-mundial-do-teatro": {
+        "id": 4730,
+        "slug": "dia-mundial-do-teatro",
+        "name": "Dia Mundial do Teatro"
+      },
+      "gil-vicente": {
+        "id": 3522,
+        "slug": "gil-vicente",
+        "name": "Gil Vicente"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-pranto-de-maria-parda/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"3\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87032,
+    "type": "event",
+    "title": { "rendered": "Nilson Dourado" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/nilson-dourado-scaled.jpg",
+    "subtitle": ["Sil\u00eancio"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "Nilson Dourado vai estar no espa\u00e7o BOTA a 31 de mar\u00e7o, para a pr\u00e9-apresenta\u00e7\u00e3o do seu mais recente \u00e1lbum, <em>Sil\u00eancio</em>. Com ele em palco estar\u00e1 a cantora Susana Travassos que tamb\u00e9m tem..."
+    ],
+    "venue": {
+      "bota-anjos": { "id": 5041, "slug": "bota-anjos", "name": "Bota Anjos" }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/nilson-dourado/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87125,
+    "type": "event",
+    "title": { "rendered": "Concerto Solid\u00e1rio" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/coro-tnsc.png",
+    "subtitle": ["Pelas v\u00edtimas dos sismos na Turquia e na S\u00edria"],
+    "subject": "m\u00fasica",
+    "string_dates": ["31 mar\u00e7o 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "No dia 31 de mar\u00e7o, o Teatro Nacional S\u00e3o Carlos (TNSC) recebe um concerto interpretado pelo Coro do TNSC e pela Orquestra Sinf\u00f3nica Portuguesa, com obras de Vianna da Motta, Bruno Vicente e Tchaik..."
+    ],
+    "venue": {
+      "teatro-nacional-de-sao-carlos": {
+        "id": 15,
+        "slug": "teatro-nacional-de-sao-carlos",
+        "name": "Teatro Nacional de S\u00e3o Carlos"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-classica": {
+        "id": 950,
+        "slug": "musica-classica",
+        "name": "cl\u00e1ssica"
+      },
+      "concerto-solidario": {
+        "id": 2586,
+        "slug": "concerto-solidario",
+        "name": "concerto solid\u00e1rio"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/concerto-solidario-3/",
+    "occurences": ["2023-03-31"],
+    "StartDate": "2023-03-31",
+    "LastDate": "2023-03-31",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"20 \u20ac a 30\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 39429,
+    "type": "event",
+    "title": { "rendered": "Mercado P'la Arte" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/05/Imagem1.jpg",
+    "subtitle": "",
+    "subject": "artes, feiras",
+    "string_dates": ["7 maio 2022 a 2 dezembro 2023"],
+    "string_times": "s\u00e1b: 14h-20h",
+    "description": [
+      "A plataforma P\u2019la Arte e a VIC Properties organizam todos os meses o <em>Mercado P\u2019la Arte</em>, uma inovadora experi\u00eancia que permite a mais de tr\u00eas dezenas de artistas apresentar e comercializ..."
+    ],
+    "venue": {
+      "prata-riverside-village": {
+        "id": 3986,
+        "slug": "prata-riverside-village",
+        "name": "Prata Riverside Village"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" },
+      "feiras": { "id": 40, "slug": "feiras", "name": "feiras" }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/mercado-pla-arte/",
+    "occurences": [
+      "2021-06-05",
+      "2021-07-03",
+      "2021-08-07",
+      "2021-09-04",
+      "2021-10-02",
+      "2021-11-06",
+      "2021-12-04",
+      "2022-01-01",
+      "2022-02-05",
+      "2022-03-05",
+      "2022-04-02",
+      "2022-05-07",
+      "2022-06-04",
+      "2022-07-02",
+      "2022-08-06",
+      "2022-09-03",
+      "2022-10-01",
+      "2022-11-05",
+      "2022-12-03",
+      "2023-01-07",
+      "2023-02-04",
+      "2023-03-04",
+      "2023-04-01",
+      "2023-05-06",
+      "2023-06-03",
+      "2023-07-01",
+      "2023-08-05",
+      "2023-09-02",
+      "2023-10-07",
+      "2023-11-04",
+      "2023-12-02"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-12-02",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 56450,
+    "type": "event",
+    "title": { "rendered": "S\u00e1bados no Museu" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/10/medeiros-e-almeida.jpg",
+    "subtitle": "",
+    "subject": "visitas guiadas",
+    "string_dates": ["4 fevereiro a 3 junho 2023"],
+    "string_times": "s\u00e1b: 1.\u00ba do m\u00eas: 12h-13h",
+    "description": [
+      "O programa de visitas guiadas S\u00e1bados no Museu est\u00e1 de regresso \u00e0 Casa- Museu Medeiros e Almeida. No 1.\u00ba s\u00e1bado do m\u00eas \u00e9 poss\u00edvel ficar a conhecer a Casa e o a sua cole\u00e7\u00e3o nomeadamente a col..."
+    ],
+    "venue": {
+      "casa-museu-medeiros-e-almeida": {
+        "id": 787,
+        "slug": "casa-museu-medeiros-e-almeida",
+        "name": "Museu Medeiros e Almeida"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "arte-sacra": { "id": 2848, "slug": "arte-sacra", "name": "arte sacra" },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" },
+      "joalharia": { "id": 74, "slug": "joalharia", "name": "joalharia" },
+      "mobiliario": {
+        "id": 1266,
+        "slug": "mobiliario",
+        "name": "mobili\u00e1rio"
+      },
+      "patrimonio": {
+        "id": 79,
+        "slug": "patrimonio",
+        "name": "patrim\u00f3nio"
+      },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" },
+      "relojoaria": { "id": 4478, "slug": "relojoaria", "name": "relojoaria" }
+    },
+    "link": "https://www.agendalx.pt/events/event/sabados-no-museu/",
+    "occurences": [
+      "2021-11-06",
+      "2021-11-20",
+      "2021-12-18",
+      "2022-01-01",
+      "2022-01-15",
+      "2022-02-05",
+      "2022-02-19",
+      "2022-03-05",
+      "2022-03-19",
+      "2022-04-02",
+      "2022-04-16",
+      "2022-05-07",
+      "2022-05-21",
+      "2022-06-04",
+      "2022-06-18",
+      "2023-02-04",
+      "2023-03-04",
+      "2023-04-01",
+      "2023-05-06",
+      "2023-06-03"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-06-03",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84049,
+    "type": "event",
+    "title": {
+      "rendered": "Visitas em Medita\u00e7\u00e3o no Museu do Oriente"
+    },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/01/20221202-Mindfulness.jpg",
+    "subtitle": "",
+    "subject": "visitas guiadas",
+    "string_dates": ["4 fevereiro a 1 abril 2023"],
+    "string_times": "s\u00e1b: 10h-11h30",
+    "description": [
+      "Serenidade, contempla\u00e7\u00e3o, arte, bem-estar \u00e9 a proposta das <em>Visitas em medita\u00e7\u00e3o</em>, do Museu do Oriente. Aliando o <em>mindfulness</em>, ou aten\u00e7\u00e3o plena, \u00e0 contempla\u00e7\u00e3o das obras em e..."
+    ],
+    "venue": {
+      "museu-do-oriente": {
+        "id": 153,
+        "slug": "museu-do-oriente",
+        "name": "Museu do Oriente"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "meditacao": {
+        "id": 1320,
+        "slug": "meditacao",
+        "name": "medita\u00e7\u00e3o"
+      },
+      "mindfulness": {
+        "id": 5345,
+        "slug": "mindfulness",
+        "name": "mindfulness"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/visitas-em-meditacao-no-museu-do-oriente/",
+    "occurences": ["2023-02-04", "2023-03-04", "2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"20\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86944,
+    "type": "event",
+    "title": { "rendered": "Nat\u00e1lia Gromicho" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/06-freedom.jpeg",
+    "subtitle": ["Freedom"],
+    "subject": "artes",
+    "string_dates": ["1 abril a 5 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Para al\u00e9m das 12 obras que ilustram esta exposi\u00e7\u00e3o, o Atelier vai projetar o document\u00e1rio \u201cDireitos Humanos Para Humanos\u201c do cineasta Gabriel Filipe.\r\n\r\nO filme tem a finalidade de romper com..."
+    ],
+    "venue": {
+      "atelier-natalia-gromicho": {
+        "id": 721,
+        "slug": "atelier-natalia-gromicho",
+        "name": "Atelier Nat\u00e1lia Gromicho"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/86944/",
+    "occurences": [
+      "2023-04-01",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-05-05",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87228,
+    "type": "event",
+    "title": { "rendered": "S\u00e1bados em fam\u00edlia" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Curta-Estonia-4.jpg",
+    "subtitle": ["em abril"],
+    "subject": "cinema",
+    "string_dates": ["1 abril a 29 abril 2023"],
+    "string_times": "s\u00e1b: 15h",
+    "description": [
+      "Em abril, a Cinemateca J\u00fanior apresenta:\r\n\r\n<strong>Serenata \u00e0 Chuva</strong>\r\n\r\nde Gene Kelly e Stanley Donen |\u00a0legendado em portugu\u00eas | M/6\r\n\r\nO maior musical da hist\u00f3ria do cinema? \u00c9 a opini?..."
+    ],
+    "venue": {
+      "cinemateca-junior": {
+        "id": 730,
+        "slug": "cinemateca-junior",
+        "name": "Cinemateca J\u00fanior"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/sabados-em-familia-39/",
+    "occurences": [
+      "2023-04-01",
+      "2023-04-08",
+      "2023-04-15",
+      "2023-04-22",
+      "2023-04-29"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-29",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86606,
+    "type": "event",
+    "title": { "rendered": "Era uma vez um Cravo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/EraUmaVezumCravo_2_cAndreLetria.jpg",
+    "subtitle": ["Leitura"],
+    "subject": "literatura",
+    "string_dates": ["1 abril a 16 abril 2023"],
+    "string_times": "s\u00e1b: 11h30; dom: 11h30",
+    "description": [
+      "<em>Era uma vez um Cravo</em> \u00e9 um livro em forma de poema, com versos de Jos\u00e9 Jorge Letria e ilustra\u00e7\u00f5es de Andr\u00e9 Letria, todas a preto e branco, \u00e0 exce\u00e7\u00e3o dos cravos vermelhos.\r\n\r\nNarrado so..."
+    ],
+    "venue": {
+      "lu-ca-teatro-luis-de-camoes": {
+        "id": 1244,
+        "slug": "lu-ca-teatro-luis-de-camoes",
+        "name": "LU.CA - Teatro Lu\u00eds de Cam\u00f5es"
+      }
+    },
+    "categories_name_list": {
+      "literatura": { "id": 41, "slug": "literatura", "name": "literatura" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/era-uma-vez-um-cravo/",
+    "occurences": [
+      "2023-04-01",
+      "2023-04-02",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-15",
+      "2023-04-16"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-16",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"1\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86614,
+    "type": "event",
+    "title": { "rendered": "Corcunda de Notre Dame" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/312062430_552102610258683_8876720315093127361_n.jpg",
+    "subtitle": ["Caixa de Cena"],
+    "subject": "teatro",
+    "string_dates": ["1 abril a 30 abril 2023"],
+    "string_times": "s\u00e1b: 16h; dom: 16h",
+    "description": [
+      "Uma das obras mais c\u00e9lebres de Victor Hugo, aqui adaptada ao teatro musical, <em>Corcunda de Notre Dame</em> conta a hist\u00f3ria de Quasimodo, um sineiro deformado que vive isolado na Catedral de Notre..."
+    ],
+    "venue": {
+      "parque-mayer": {
+        "id": 3757,
+        "slug": "parque-mayer",
+        "name": "Parque Mayer"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "teatro-musical": {
+        "id": 1034,
+        "slug": "teatro-musical",
+        "name": "teatro musical"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/corcunda-de-notre-dame/",
+    "occurences": [
+      "2023-04-01",
+      "2023-04-02",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-15",
+      "2023-04-16",
+      "2023-04-22",
+      "2023-04-23",
+      "2023-04-29",
+      "2023-04-30"
+    ],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-30",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86727,
+    "type": "event",
+    "title": { "rendered": "A Estranha Visita" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/3b32a28-201822-estranha-visita-poets-dragons-livro-faz-de-conto.jpg",
+    "subtitle": ["Hist\u00f3rias para fam\u00edlias"],
+    "subject": "literatura",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "11h00",
+    "description": [
+      "Hist\u00f3ria para fam\u00edlias com In\u00eas Leit\u00e3o (Biblioteca dos Coruch\u00e9us) a partir do livro <em>A estranha visita</em> de Gracia Iglesias e Vicente Cruz."
+    ],
+    "venue": {
+      "livraria-barata-lugar-de-cultura": {
+        "id": 4349,
+        "slug": "livraria-barata-lugar-de-cultura",
+        "name": "Livraria Barata - Lugar de Cultura"
+      }
+    },
+    "categories_name_list": {
+      "literatura": { "id": 41, "slug": "literatura", "name": "literatura" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-estranha-visita/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 36774,
+    "type": "event",
+    "title": { "rendered": "O Patinho Feio" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/02/20190325125203_Patinho_Feio.png",
+    "subtitle": "",
+    "subject": "teatro",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "16h00",
+    "description": [
+      "<div>\r\n\r\nNa quinta do Tio Manel h\u00e1 tanta coisa para fazer. \u00c9 preciso regar as cenouras, as favas crescem que \u00e9 uma maravilha e os morangos est\u00e3o prontos para colher. E hoje h\u00e1 novidades! Acabaram..."
+    ],
+    "venue": {
+      "fabrica-braco-de-prata": {
+        "id": 549,
+        "slug": "fabrica-braco-de-prata",
+        "name": "F\u00e1brica Bra\u00e7o de Prata"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-patinho-feio-2/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"7\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 59078,
+    "type": "event",
+    "title": {
+      "rendered": "A Alegre Hist\u00f3ria da M\u00fasica em 62 Minutos"
+    },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Sem-Titulo-1.png",
+    "subtitle": ["Companhia do Teatro Bocage"],
+    "subject": "teatro",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "16h00",
+    "description": [
+      "<p style=\"font-weight: 400;\">Das hist\u00f3rias aos quadradinhos para o palco, a C\u00aa do Teatro Bocage apresenta um divertido espet\u00e1culo inspirado nas hist\u00f3rias aos quadrinhos, da banda desenhada <em>His..."
+    ],
+    "venue": {
+      "teatro-bocage": {
+        "id": 240,
+        "slug": "teatro-bocage",
+        "name": "Teatro Bocage"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-alegre-historia-da-musica-em-62-minutos/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86695,
+    "type": "event",
+    "title": { "rendered": "A Arca do Tesouro" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/A_Arca_do_TesouroMetropolitana\u00a9RitaAntunes.jpg",
+    "subtitle": ["Est\u00f3rias com m\u00fasica"],
+    "subject": "m\u00fasica",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "17h00",
+    "description": [
+      "Em 2010, a Metropolitana lan\u00e7ouum desafio a Alice Vieira e a Eurico Carrapatoso. Nasceu assim <em>Um Pequeno Conto Musical</em>, no qual as palavras que a escritora juntou no conto <em>A Arca de Teso..."
+    ],
+    "venue": {
+      "museu-nacional-dos-coches-picadeiro-real": {
+        "id": 349,
+        "slug": "museu-nacional-dos-coches-picadeiro-real",
+        "name": "Museu Nacional dos Coches / Picadeiro Real"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-arca-do-tesouro/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:2:{i:0;a:1:{s:5:\"value\";s:1:\"8\";}i:1;a:2:{s:5:\"value\";s:1:\"5\";s:11:\"description\";s:18:\"menores de 12 anos\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86403,
+    "type": "event",
+    "title": { "rendered": "LOL&POP" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/lolepop.jpg",
+    "subtitle": ["Henry Ferreira e Rafael Santos"],
+    "subject": "stand up comedy",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "21h00",
+    "description": [
+      "<em>Henry Ferreira e Rafael Santos s\u00e3o LOL&amp;POP, embora n\u00e3o saibam ao certo quem \u00e9 o LOL e quem \u00e9 o POP nem a raz\u00e3o de tal trocadilho maroto para nome deste dueto. Transportam o p\u00fablico numa..."
+    ],
+    "venue": {
+      "teatro-bocage": {
+        "id": 240,
+        "slug": "teatro-bocage",
+        "name": "Teatro Bocage"
+      }
+    },
+    "categories_name_list": {
+      "stand-up-comedy": {
+        "id": 4737,
+        "slug": "stand-up-comedy",
+        "name": "stand up comedy"
+      }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/lolpop/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"8\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87131,
+    "type": "event",
+    "title": { "rendered": "Andr\u00e9 Carvalho" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/andre-carvalho-1.jpg",
+    "subtitle": ["Lost in Translation"],
+    "subject": "m\u00fasica",
+    "string_dates": ["1 abril 2023"],
+    "string_times": "s\u00e1b: 21h",
+    "description": [
+      "Descrito como uma viagem ao desconhecido com uma elevada dose de adrenalina, o ciclo\u00a0<em>Lost in Translation</em>\u00a0de Andr\u00e9 Carvalho deixa os ouvintes suspensos no tempo por a m\u00fasica mudar rapidame..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "jazz": { "id": 1086, "slug": "jazz", "name": "jazz" },
+      "musica-experimental": {
+        "id": 1561,
+        "slug": "musica-experimental",
+        "name": "m\u00fasica experimental"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/andre-carvalho-5/",
+    "occurences": ["2023-04-01"],
+    "StartDate": "2023-04-01",
+    "LastDate": "2023-04-01",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:12:\"10,5 \u20ac, 13\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 3017,
+    "type": "event",
+    "title": { "rendered": "Visita aos Pa\u00e7os do Concelho" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2018/07/pacos_concelho.jpg",
+    "subtitle": "",
+    "subject": "visitas guiadas",
+    "string_dates": ["12 fevereiro a 2 julho 2023"],
+    "string_times": "dom: 1.\u00ba m\u00eas, \u00e0s 11h",
+    "description": [
+      "O edif\u00edcio dos Pa\u00e7os do Concelho, para al\u00e9m do seu valor arquitet\u00f3nico e art\u00edstico, reflete a imagem de Lisboa e de Portugal Liberal, Regenerador e Republicano. Importantes acontecimentos da noss..."
+    ],
+    "venue": {
+      "pacos-do-concelho": {
+        "id": 718,
+        "slug": "pacos-do-concelho",
+        "name": "Pa\u00e7os do Concelho"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/visita-aos-pacos-do-concelho/",
+    "occurences": [
+      "2018-08-05",
+      "2018-09-02",
+      "2018-10-07",
+      "2018-11-04",
+      "2018-12-02",
+      "2023-02-12",
+      "2023-03-05",
+      "2023-04-02",
+      "2023-05-07",
+      "2023-06-04",
+      "2023-07-02"
+    ],
+    "StartDate": "2023-04-02",
+    "LastDate": "2023-07-02",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 78924,
+    "type": "event",
+    "title": { "rendered": "Arte em S\u00e3o Bento" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2022/10/image16644501203571.jpg",
+    "subtitle": ["Cole\u00e7\u00e3o Peter Meeker"],
+    "subject": "artes",
+    "string_dates": ["5 outubro 2022 a 3 setembro 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<div>\r\n\r\nDesde outubro, a resid\u00eancia oficial apresenta uma sele\u00e7\u00e3o de 48 obras provenientes da Cole\u00e7\u00e3o Peter Meeker, de Pedro \u00c1lvares Ribeiro, com curadoria de Jo\u00e3o Silv\u00e9rio.\r\n\r\nComposta por c..."
+    ],
+    "venue": {
+      "palacete-de-sao-bento-residencia-oficial-do-primeiro-ministro": {
+        "id": 1869,
+        "slug": "palacete-de-sao-bento-residencia-oficial-do-primeiro-ministro",
+        "name": "Palacete de S\u00e3o Bento (Resid\u00eancia Oficial do Primeiro-Ministro)"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "coletiva": { "id": 92, "slug": "coletiva", "name": "coletiva" },
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "escultura": { "id": 65, "slug": "escultura", "name": "escultura" },
+      "fotografia": { "id": 67, "slug": "fotografia", "name": "fotografia" },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" },
+      "instalacao": {
+        "id": 72,
+        "slug": "instalacao",
+        "name": "instala\u00e7\u00e3o"
+      },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/arte-em-sao-bento-2/",
+    "occurences": [
+      "2022-10-05",
+      "2022-11-06",
+      "2022-12-04",
+      "2023-01-01",
+      "2023-02-05",
+      "2023-03-05",
+      "2023-04-02",
+      "2023-05-07",
+      "2023-06-04",
+      "2023-07-02",
+      "2023-08-06",
+      "2023-09-03"
+    ],
+    "StartDate": "2023-04-02",
+    "LastDate": "2023-09-03",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84071,
+    "type": "event",
+    "title": { "rendered": "Mercado CCB" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/01/transferir.jpg",
+    "subtitle": ["Mostrar, ver e fazer"],
+    "subject": "feiras",
+    "string_dates": ["5 fevereiro a 3 dezembro 2023"],
+    "string_times": "dom: 10h-18h",
+    "description": [
+      "Da gastronomia \u00e0 natureza, das ofertas para crian\u00e7as ao artesanato contempor\u00e2neo, as marcas e os projetos portugueses s\u00e3o convidados a mostrar o seu trabalho no CCB.\r\n\r\nO p\u00fablico \u00e9 desafiado a v..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "feiras": { "id": 40, "slug": "feiras", "name": "feiras" }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/mercado-ccb-2/",
+    "occurences": [
+      "2023-02-05",
+      "2023-03-05",
+      "2023-04-02",
+      "2023-05-07",
+      "2023-06-04",
+      "2023-07-02",
+      "2023-09-03",
+      "2023-10-01",
+      "2023-11-05",
+      "2023-12-03"
+    ],
+    "StartDate": "2023-04-02",
+    "LastDate": "2023-12-03",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84500,
+    "type": "event",
+    "title": { "rendered": "Cinepop 2023" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Labirinto.webp",
+    "subtitle": "",
+    "subject": "cinema",
+    "string_dates": ["12 fevereiro a 30 abril 2023"],
+    "string_times": "dom: 16h",
+    "description": [
+      "O \u201cculto\u201d de domingo \u00e0 tarde est\u00e1 de regresso ao antigo Cinema Roma para uma nova temporada. O projeto \u00e9 conduzido pelo realizador e argumentista Tiago P. de Carvalho que decidiu mostrar a novo..."
+    ],
+    "venue": {
+      "forum-lisboa": {
+        "id": 168,
+        "slug": "forum-lisboa",
+        "name": "F\u00f3rum Lisboa"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "ciclo": { "id": 56, "slug": "ciclo", "name": "ciclo" }
+    },
+    "link": "https://www.agendalx.pt/events/event/cinepop-2/",
+    "occurences": [
+      "2023-02-12",
+      "2023-02-26",
+      "2023-03-05",
+      "2023-03-12",
+      "2023-04-02",
+      "2023-04-16",
+      "2023-04-23",
+      "2023-04-30"
+    ],
+    "StartDate": "2023-04-02",
+    "LastDate": "2023-04-30",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87140,
+    "type": "event",
+    "title": { "rendered": "Sinfonia n.\u00ba9 de Mahler" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/pedro-carneiro.png",
+    "subtitle": ["Orq. de C\u00e2mara Portuguesa/ Jovem Orq. Portuguesa"],
+    "subject": "m\u00fasica",
+    "string_dates": ["2 abril 2023"],
+    "string_times": "dom: 17h",
+    "description": [
+      "Para celebrar o 30.\u00ba anivers\u00e1rio do Centro Cultural de Bel\u00e9m e a vida de Ant\u00f3nio Mega Ferreira (1949-2022), a Orquestra de C\u00e2mara Portuguesa (OCP) junta-se \u00e0 sua \u00abirm\u00e3\u00bb, a Jovem Orquestra Por..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-classica": {
+        "id": 950,
+        "slug": "musica-classica",
+        "name": "cl\u00e1ssica"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/orq-de-camara-portuguesa-e-jovem-orq-portuguesa/",
+    "occurences": ["2023-04-02"],
+    "StartDate": "2023-04-02",
+    "LastDate": "2023-04-02",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"12 \u20ac a 64\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 57631,
+    "type": "event",
+    "title": { "rendered": "Teatro e canto" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/10/kid_s-266x266-1.jpg",
+    "subtitle": ["F\u00e9rias de P\u00e1scoa"],
+    "subject": null,
+    "string_dates": ["3 abril a 6 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "O Teatro n\u00e3o \u00e9 s\u00f3 decorar textos ou contar hist\u00f3rias.\r\n\r\nO Teatro pode ser tamb\u00e9m um meio de autodescoberta e de rela\u00e7\u00e3o com os outros.\r\n\r\nAs ferramentas que se adquirem s\u00e3o \u00fateis para o dia-..."
+    ],
+    "venue": {
+      "act-escola-de-actores": {
+        "id": 135,
+        "slug": "act-escola-de-actores",
+        "name": "ACT - Escola de Actores"
+      }
+    },
+    "categories_name_list": [],
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "ferias-da-pascoa": {
+        "id": 2558,
+        "slug": "ferias-da-pascoa",
+        "name": "f\u00e9rias da p\u00e1scoa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/teatro-e-canto/",
+    "occurences": ["2023-04-03", "2023-04-04", "2023-04-05", "2023-04-06"],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-06",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:3:\"120\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 85222,
+    "type": "event",
+    "title": { "rendered": "Musical Kids" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/Com_ATL-de-Pascoa_2022_Pagina_Prancheta-3-scaled-1.jpg",
+    "subtitle": ["ATL de P\u00e1scoa"],
+    "subject": null,
+    "string_dates": ["3 abril a 14 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "O ATL de P\u00e1scoa da Dance Spot tem como objetivo a prepara\u00e7\u00e3o de um espet\u00e1culo musical no qual as crian\u00e7as apresentam aos seus pais, todos os talentos desenvolvidos na Dance Spot.\r\n\r\nAo longo de c..."
+    ],
+    "venue": {
+      "dance-spot": { "id": 531, "slug": "dance-spot", "name": "Dance Spot" }
+    },
+    "categories_name_list": [],
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "link": "https://www.agendalx.pt/events/event/musical-kids-2/",
+    "occurences": [
+      "2023-04-03",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14"
+    ],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:2:{i:0;a:2:{s:5:\"value\";s:3:\"120\";s:11:\"description\";s:16:\"semana de 4 dias\";}i:1;a:2:{s:5:\"value\";s:3:\"145\";s:11:\"description\";s:16:\"semana de 5 dias\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86977,
+    "type": "event",
+    "title": { "rendered": "Expedito D\u2019almeida" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/1677813129924-scaled-e1678889064415.jpg",
+    "subtitle": ["Naturezas vivas"],
+    "subject": "artes",
+    "string_dates": ["3 abril a 27 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": ["Exposi\u00e7\u00e3o de pintura."],
+    "venue": {
+      "direcao-geral-da-administracao-da-justica": {
+        "id": 1986,
+        "slug": "direcao-geral-da-administracao-da-justica",
+        "name": "Dire\u00e7\u00e3o-Geral da Administra\u00e7\u00e3o da Justi\u00e7a"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/expedito-dalmeida-3/",
+    "occurences": [
+      "2023-04-03",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27"
+    ],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-27",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86982,
+    "type": "event",
+    "title": { "rendered": "Acting for Camera: Take 1" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Sem-Titulo-5.png",
+    "subtitle": ["F\u00e9rias da P\u00e1scoa"],
+    "subject": null,
+    "string_dates": ["3 abril a 6 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Tendo como princ\u00edpio o Teatro e o Cinema, o projecto visa a melhoria da comunica\u00e7\u00e3o, estimulando a criatividade, a colabora\u00e7\u00e3o e o pensamento cr\u00edtico, tornando os jovens mais confiantes e levand..."
+    ],
+    "venue": {
+      "act-escola-de-actores": {
+        "id": 135,
+        "slug": "act-escola-de-actores",
+        "name": "ACT - Escola de Actores"
+      }
+    },
+    "categories_name_list": [],
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "ferias-da-pascoa": {
+        "id": 2558,
+        "slug": "ferias-da-pascoa",
+        "name": "f\u00e9rias da p\u00e1scoa"
+      },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/acting-for-camera-take-1/",
+    "occurences": ["2023-04-03", "2023-04-04", "2023-04-05", "2023-04-06"],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-06",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:3:\"135\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86987,
+    "type": "event",
+    "title": { "rendered": "Pequenos artistas" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Sem-Titulo-6.png",
+    "subtitle": ["F\u00e9rias da P\u00e1scoa"],
+    "subject": null,
+    "string_dates": ["3 abril a 14 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "A <span class=\"marku52sijzob\" data-markjs=\"true\" data-ogac=\"\" data-ogab=\"\" data-ogsc=\"\" data-ogsb=\"\">Casa</span>\u00a0<span class=\"mark9whf5fa0x\" data-markjs=\"true\" data-ogac=\"\" data-ogab=\"\" data-ogsc=\"\"..."
+    ],
+    "venue": {
+      "casa-do-artista": {
+        "id": 453,
+        "slug": "casa-do-artista",
+        "name": "Casa do Artista"
+      }
+    },
+    "categories_name_list": [],
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "ferias-da-pascoa": {
+        "id": 2558,
+        "slug": "ferias-da-pascoa",
+        "name": "f\u00e9rias da p\u00e1scoa"
+      },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pequenos-artistas/",
+    "occurences": [
+      "2023-04-03",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14"
+    ],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-14",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86228,
+    "type": "event",
+    "title": { "rendered": "A Ratoeira" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/A_Ratoeira_agatha_christie.webp",
+    "subtitle": ["Nova temporada"],
+    "subject": "teatro",
+    "string_dates": ["3 abril a 1 maio 2023"],
+    "string_times": "dom: 21h; seg: 21h",
+    "description": [
+      "Um jovem casal converteu uma casa de campo num pequeno hotel, iniciando um neg\u00f3cio no ramo da hotelaria, mas vive com dificuldades financeiras. Certa noite, devido a uma forte tempestade de neve, tod..."
+    ],
+    "venue": {
+      "teatro-politeama": {
+        "id": 264,
+        "slug": "teatro-politeama",
+        "name": "Teatro Politeama"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/a-ratoeira-5/",
+    "occurences": [
+      "2023-04-03",
+      "2023-04-09",
+      "2023-04-10",
+      "2023-04-16",
+      "2023-04-17",
+      "2023-04-24",
+      "2023-04-26",
+      "2023-05-01"
+    ],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-05-01",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"20 \u20ac a 30\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86787,
+    "type": "event",
+    "title": { "rendered": "Cenas da Revolu\u00e7\u00e3o" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/brandos-costumes.jpg",
+    "subtitle": "",
+    "subject": "cinema",
+    "string_dates": ["3 abril a 17 abril 2023"],
+    "string_times": "seg: 21h30",
+    "description": [
+      "A Casa da Achada exibe tr\u00eas filmes em torno do 25 de Abril.\r\n\r\nPrograma:\r\n\r\n3 de Abril\r\n<em><strong>Brandos Costumes</strong></em> (1975)<span style=\"font-family: Roboto, sans-serif; font-size: 18px;..."
+    ],
+    "venue": {
+      "casa-da-achada-centro-mario-dionisio": {
+        "id": 752,
+        "slug": "casa-da-achada-centro-mario-dionisio",
+        "name": "Casa da Achada \u2013 Centro M\u00e1rio Dion\u00edsio"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "25-de-abril": {
+        "id": 1048,
+        "slug": "25-de-abril",
+        "name": "25 de Abril"
+      },
+      "ciclo": { "id": 56, "slug": "ciclo", "name": "ciclo" },
+      "revolucao": {
+        "id": 4213,
+        "slug": "revolucao",
+        "name": "revolu\u00e7\u00e3o"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/cenas-da-revolucao/",
+    "occurences": ["2023-04-03", "2023-04-10", "2023-04-17"],
+    "StartDate": "2023-04-03",
+    "LastDate": "2023-04-17",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 5922,
+    "type": "event",
+    "title": { "rendered": "Itiner\u00e1rios de Lisboa" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2018/09/itinerarios.jpg",
+    "subtitle": ["abril 2023"],
+    "subject": "visitas guiadas",
+    "string_dates": ["4 abril a 28 abril 2023"],
+    "string_times": "",
+    "description": [
+      "Os Itiner\u00e1rios de Lisboa levam os mun\u00edcipes e visitantes \u00e0 descoberta da cidade. Elaborados a partir de v\u00e1rios temas, abordam a vida quotidiana da cidade, o patrim\u00f3nio edificado e liter\u00e1rio, as..."
+    ],
+    "venue": {
+      "divisao-de-promocao-e-comunicacao-cultural": {
+        "id": 1773,
+        "slug": "divisao-de-promocao-e-comunicacao-cultural",
+        "name": "Divis\u00e3o de Promo\u00e7\u00e3o e Comunica\u00e7\u00e3o Cultural"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "ar-livre": { "id": 27, "slug": "ar-livre", "name": "ar livre" },
+      "patrimonio": {
+        "id": 79,
+        "slug": "patrimonio",
+        "name": "patrim\u00f3nio"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/5922/",
+    "occurences": [
+      "2018-11-06",
+      "2018-11-07",
+      "2018-11-08",
+      "2018-11-09",
+      "2018-11-10",
+      "2018-11-13",
+      "2018-11-14",
+      "2018-11-15",
+      "2018-11-16",
+      "2018-11-17",
+      "2018-11-20",
+      "2018-11-21",
+      "2018-11-22",
+      "2018-11-23",
+      "2018-11-24",
+      "2018-11-27",
+      "2018-11-28",
+      "2018-11-29",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28"
+    ],
+    "StartDate": "2023-04-04",
+    "LastDate": "2023-04-28",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:4:{i:0;a:1:{s:11:\"description\";s:34:\"Pre\u00e7\u00e1rio a partir de mar\u00e7o 2023\";}i:1;a:2:{s:5:\"value\";s:4:\"3,85\";s:11:\"description\";s:26:\"Bilhete simples (1 visita)\";}i:2;a:2:{s:5:\"value\";s:4:\"6,49\";s:11:\"description\";s:41:\"Bilhete duplo (2 visitas ou duas pessoas)\";}i:3;a:2:{s:5:\"value\";s:2:\"26\";s:11:\"description\";s:23:\"Voucher 10 Itiner\u00e1rios\";}}"
+    ],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 5941,
+    "type": "event",
+    "title": { "rendered": "Visitas Comentadas" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2018/09/visitas.jpg",
+    "subtitle": ["abril"],
+    "subject": "visitas guiadas",
+    "string_dates": ["4 abril a 28 abril 2023"],
+    "string_times": "",
+    "description": [
+      "As visitas t\u00eam como objetivo dar a conhecer a cidade, o seu patrim\u00f3nio arquitet\u00f3nico, hist\u00f3rico e cultural. S\u00e3o o resultado de parcerias com entidades p\u00fablicas e privadas, nomeadamente equipamen..."
+    ],
+    "venue": {
+      "divisao-de-promocao-e-comunicacao-cultural": {
+        "id": 1773,
+        "slug": "divisao-de-promocao-e-comunicacao-cultural",
+        "name": "Divis\u00e3o de Promo\u00e7\u00e3o e Comunica\u00e7\u00e3o Cultural"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/visitas-comentadas/",
+    "occurences": [
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28"
+    ],
+    "StartDate": "2023-04-04",
+    "LastDate": "2023-04-28",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86648,
+    "type": "event",
+    "title": { "rendered": "La Voci di Dante (As vozes de Dante)" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/as-vozes-de-dante_sem-texto_1920x1080.jpeg",
+    "subtitle": ["Toni Servillo"],
+    "subject": "teatro",
+    "string_dates": ["4 abril 2023"],
+    "string_times": "21h30",
+    "description": [
+      "Um espet\u00e1culo que aborda a obra de Dante atrav\u00e9s da interpreta\u00e7\u00e3o original oferecida por um dos mais importantes autores italianos contempor\u00e2neos, Giuseppe Montesano.\r\n\r\n\"Libertar a <em>Com\u00e9dia<..."
+    ],
+    "venue": {
+      "maria-matos-teatro-municipal": {
+        "id": 175,
+        "slug": "maria-matos-teatro-municipal",
+        "name": "Teatro Maria Matos"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "festa-do-cinema-italiano": {
+        "id": 4497,
+        "slug": "festa-do-cinema-italiano",
+        "name": "Festa do Cinema Italiano"
+      },
+      "italia": { "id": 1855, "slug": "italia", "name": "It\u00e1lia" }
+    },
+    "link": "https://www.agendalx.pt/events/event/la-voci-di-dante-as-vozes-de-dante/",
+    "occurences": ["2023-04-04"],
+    "StartDate": "2023-04-04",
+    "LastDate": "2023-04-04",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"18\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86920,
+    "type": "event",
+    "title": { "rendered": "Armando Sales Lu\u00eds" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Imagem1-10.jpg",
+    "subtitle": ["Paisagens imateriais"],
+    "subject": "artes",
+    "string_dates": ["6 abril a 27 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "As pinturas/desenhos de Armando Sales Lu\u00eds refletem a rela\u00e7\u00e3o intensa, em termos emotivos e est\u00e9ticos, com a realidade envolvente, sobretudo a que resulta das rela\u00e7\u00f5es de proximidade e intimidad..."
+    ],
+    "venue": {
+      "faculdade-de-belas-artes-da-universidade-de-lisboa": {
+        "id": 709,
+        "slug": "faculdade-de-belas-artes-da-universidade-de-lisboa",
+        "name": "Faculdade de Belas-Artes da Universidade de Lisboa"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/armando-sales-luis/",
+    "occurences": [
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27"
+    ],
+    "StartDate": "2023-04-06",
+    "LastDate": "2023-04-27",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87143,
+    "type": "event",
+    "title": { "rendered": "Concerto de P\u00e1scoa | Requiem de Mozart" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/concerto-de-Pascoa.jpg",
+    "subtitle": ["OML e Coro Participativo"],
+    "subject": "m\u00fasica",
+    "string_dates": ["6 abril 2023"],
+    "string_times": "qui: 19h",
+    "description": [
+      "O\u00a0<em>Requiem</em>\u00a0de Mozart \u00e9 um monumento \u00e0 condi\u00e7\u00e3o humana. Por um lado, tem na origem os ingredientes essenciais de um romance\u00a0<em>best-seller</em>, tais como a entrega incondicional do g\u00e9..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-classica": {
+        "id": 950,
+        "slug": "musica-classica",
+        "name": "cl\u00e1ssica"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/concerto-de-pascoa-requiem-de-mozart/",
+    "occurences": ["2023-04-06"],
+    "StartDate": "2023-04-06",
+    "LastDate": "2023-04-06",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:12:\"21 \u20ac a 112\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 73895,
+    "type": "event",
+    "title": { "rendered": "Orlando" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2022/07/Orlando-img-9030-stephencummiskey-peq.jpg",
+    "subtitle": ["Virginia Woolf/ Katie Mitchell"],
+    "subject": "teatro",
+    "string_dates": ["6 abril a 7 abril 2023"],
+    "string_times": "20h00",
+    "description": [
+      "<em>A hero\u00edna que nasceu um her\u00f3i; ou um her\u00f3i que se torna uma hero\u00edna \u2013 ser\u00e1 que importa sequer?</em> Orlando <em>atravessa quatro s\u00e9culos da Hist\u00f3ria brit\u00e2nica e europeia. Vive na corte d..."
+    ],
+    "venue": {
+      "sao-luiz-teatro-municipal": {
+        "id": 572,
+        "slug": "sao-luiz-teatro-municipal",
+        "name": "S\u00e3o Luiz Teatro Municipal"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "18": { "id": 957, "slug": "18", "name": "+ 18" },
+      "katie-mitchell": {
+        "id": 5044,
+        "slug": "katie-mitchell",
+        "name": "Katie Mitchell"
+      },
+      "schaubhune": {
+        "id": 2915,
+        "slug": "schaubhune",
+        "name": "Schaubh\u00fcne"
+      },
+      "virginia-woolf": {
+        "id": 1208,
+        "slug": "virginia-woolf",
+        "name": "Virginia Woolf"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/orlando-2/",
+    "occurences": ["2023-04-06", "2023-04-07"],
+    "StartDate": "2023-04-06",
+    "LastDate": "2023-04-07",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": { "18": { "id": 957, "slug": "18", "name": "+ 18" } },
+    "accessibility": []
+  },
+  {
+    "id": 80876,
+    "type": "event",
+    "title": { "rendered": "Crime no Museu" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2022/11/88e93d6b-7f23-45f9-bca4-7c502657ae15-scaled.jpeg",
+    "subtitle": ["Os f\u00f3sseis tamb\u00e9m falam"],
+    "subject": "ci\u00eancia",
+    "string_dates": ["6 janeiro a 4 agosto 2023"],
+    "string_times": "sex: 21h-23h30",
+    "description": [
+      "O\u00a0Crime no Museu\u00a0est\u00e1 de volta ao Pavilh\u00e3o do Conhecimento com uma nova e misteriosa aventura que s\u00f3 a ci\u00eancia pode ajudar a revelar.\r\n\r\nA noite parece tranquila no interior do museu mas\u2026 s\u00f3..."
+    ],
+    "venue": {
+      "pavilhao-do-conhecimento-ciencia-viva": {
+        "id": 662,
+        "slug": "pavilhao-do-conhecimento-ciencia-viva",
+        "name": "Pavilh\u00e3o do Conhecimento \u2013 Ci\u00eancia Viva"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "link": "https://www.agendalx.pt/events/event/crime-no-museu/",
+    "occurences": [
+      "2023-01-06",
+      "2023-02-03",
+      "2023-03-03",
+      "2023-04-07",
+      "2023-05-05",
+      "2023-06-02",
+      "2023-07-07",
+      "2023-08-04"
+    ],
+    "StartDate": "2023-04-07",
+    "LastDate": "2023-08-04",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:1:{i:0;a:2:{s:5:\"value\";s:2:\"35\";s:11:\"description\";s:12:\"participante\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 84649,
+    "type": "event",
+    "title": { "rendered": "O Filho" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/o-filho.jpg",
+    "subtitle": ["Florian Zeller/ Jo\u00e3o Louren\u00e7o"],
+    "subject": "teatro",
+    "string_dates": ["7 abril a 30 abril 2023"],
+    "string_times": "",
+    "description": [
+      "Pedro e Ana separaram-se. Nicolau, o filho adolescente, cai numa profunda tristeza, falta \u00e0 escola, sente-se perdido, n\u00e3o est\u00e1 bem consigo pr\u00f3prio nem com ningu\u00e9m. Pedro tem uma nova mulher, Sofi..."
+    ],
+    "venue": {
+      "teatro-aberto": {
+        "id": 318,
+        "slug": "teatro-aberto",
+        "name": "Teatro Aberto"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "florian-zeller": {
+        "id": 2189,
+        "slug": "florian-zeller",
+        "name": "Florian Zeller"
+      },
+      "joao-lourenco": {
+        "id": 1196,
+        "slug": "joao-lourenco",
+        "name": "Jo\u00e3o Louren\u00e7o"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-filho-2/",
+    "occurences": [
+      "2023-04-07",
+      "2023-04-08",
+      "2023-04-09",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-16",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-23",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-04-30"
+    ],
+    "StartDate": "2023-04-07",
+    "LastDate": "2023-04-30",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:1:{i:0;a:2:{s:5:\"value\";s:2:\"17\";s:11:\"description\";s:41:\"pre\u00e7o normal (ver descontos aplic\u00e1veis)\";}}"
+    ],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86304,
+    "type": "event",
+    "title": { "rendered": "Ui, d\u00f3i-me um dente\u2026 vou ao barbeiro!" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Ui_doi-me-um-dente_vou-ao-barbeiro\u00a9Tiago-Ladeira.jpg",
+    "subtitle": "",
+    "subject": "ci\u00eancia",
+    "string_dates": ["8 abril 2023"],
+    "string_times": "15h00",
+    "description": [
+      "O que fazia um barbeiro a bordo de um barco? E porque \u00e9 que o barbeiro tinha um prato? Seria o prato do almo\u00e7o ou o prato do gato do barbeiro?\r\n\r\nNo Dia Mundial da Sa\u00fade, esta oficina centra-se na..."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/ui-doi-me-um-dente-vou-ao-barbeiro-2/",
+    "occurences": ["2023-04-08"],
+    "StartDate": "2023-04-08",
+    "LastDate": "2023-04-08",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 10038,
+    "type": "event",
+    "title": { "rendered": "A Hist\u00f3ria da Carochinha" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/04/20190322142839_Carochinha-1.png",
+    "subtitle": "",
+    "subject": "teatro",
+    "string_dates": ["8 abril 2023"],
+    "string_times": "16h00",
+    "description": [
+      "Por entre v\u00e1rias perip\u00e9cias muito divertidas, a hist\u00f3ria tradicional da Carochinha e do Jo\u00e3o Rat\u00e3o \u00e9 contada \u00e0s crian\u00e7as atrav\u00e9s do teatro. Ali, vai ajudar-se a Carochinha a encontrar um par,..."
+    ],
+    "venue": {
+      "fabrica-braco-de-prata": {
+        "id": 549,
+        "slug": "fabrica-braco-de-prata",
+        "name": "F\u00e1brica Bra\u00e7o de Prata"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-historia-da-carochinha/",
+    "occurences": ["2023-04-08"],
+    "StartDate": "2023-04-08",
+    "LastDate": "2023-04-08",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"7\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 87147,
+    "type": "event",
+    "title": { "rendered": "The Teskey Brothers" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/teskey-brothers.jpeg",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["8 abril 2023"],
+    "string_times": "s\u00e1b: 21h",
+    "description": [
+      "Os australianos\u00a0<span class=\"markocf6mz9nu\" data-markjs=\"true\" data-ogac=\"\" data-ogab=\"\" data-ogsc=\"\" data-ogsb=\"\">The</span>\u00a0<span class=\"mark9hoe7wv87\" data-markjs=\"true\" data-ogac=\"\" data-ogab=\"\"..."
+    ],
+    "venue": false,
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "rock": { "id": 2035, "slug": "rock", "name": "rock" }
+    },
+    "link": "https://www.agendalx.pt/events/event/the-teskey-brothers/",
+    "occurences": ["2023-04-08"],
+    "StartDate": "2023-04-08",
+    "LastDate": "2023-04-08",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:12:\"20 \u20ac a 168\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86308,
+    "type": "event",
+    "title": { "rendered": "Ca\u00e7a aos ovos no Castelo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Caca_aos_ovos\u00a9Jose-Frade.jpg",
+    "subtitle": "",
+    "subject": "ci\u00eancia",
+    "string_dates": ["9 abril 2023"],
+    "string_times": "11h00",
+    "description": [
+      "No Castelo de S\u00e3o Jorge convidam-se as fam\u00edlias e as suas crian\u00e7as para uma verdadeira ca\u00e7a aos ovos, no domingo de P\u00e1scoa!\r\n\r\nAtrav\u00e9s de um mapa que se segue passo a passo, cada fam\u00edlia ir\u00e1 e..."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/caca-aos-ovos-no-castelo/",
+    "occurences": ["2023-04-09"],
+    "StartDate": "2023-04-09",
+    "LastDate": "2023-04-09",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 42307,
+    "type": "event",
+    "title": { "rendered": "Teatro Musical" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2021/07/unnamed.jpg",
+    "subtitle": ["F\u00e9rias da P\u00e1scoa"],
+    "subject": null,
+    "string_dates": ["10 abril a 14 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Este workshop compreende um trabalho intensivo de canto,\u00a0dan\u00e7a,\u00a0interpreta\u00e7\u00e3o e sapateado e v\u00e3o estudar-se obras de Stephen Schwartz,\u00a0Bob Fosse, entre outros.\r\n\r\nO workshop tem como objetivo co..."
+    ],
+    "venue": {
+      "act-escola-de-actores": {
+        "id": 135,
+        "slug": "act-escola-de-actores",
+        "name": "ACT - Escola de Actores"
+      }
+    },
+    "categories_name_list": [],
+    "tags_name_list": {
+      "ferias-da-pascoa": {
+        "id": 2558,
+        "slug": "ferias-da-pascoa",
+        "name": "f\u00e9rias da p\u00e1scoa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/teatro-musical/",
+    "occurences": [
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14"
+    ],
+    "StartDate": "2023-04-10",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:3:\"180\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86993,
+    "type": "event",
+    "title": { "rendered": "Poesia, Largada, Fugida!" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/WhatsApp_Image_2020-08-19_at_21.46.03_1.jpeg",
+    "subtitle": ["Oficina de P\u00e1scoa"],
+    "subject": "literatura",
+    "string_dates": ["10 abril a 14 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Como se faz um poema? Atrav\u00e9s da leitura e da desconstru\u00e7\u00e3o\u00a0de poemas e versos, vamos treinar a express\u00e3o escrita e puxar\u00a0pela imagina\u00e7\u00e3o. Aqui desafiaremos juntos a ideia de \u201cPoema\u201d:\u00a0atr..."
+    ],
+    "venue": {
+      "casa-fernando-pessoa": {
+        "id": 390,
+        "slug": "casa-fernando-pessoa",
+        "name": "Casa Fernando Pessoa"
+      }
+    },
+    "categories_name_list": {
+      "literatura": { "id": 41, "slug": "literatura", "name": "literatura" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "ferias-da-pascoa": {
+        "id": 2558,
+        "slug": "ferias-da-pascoa",
+        "name": "f\u00e9rias da p\u00e1scoa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/poesia-largada-fugida/",
+    "occurences": [
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14"
+    ],
+    "StartDate": "2023-04-10",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:1:{i:0;a:2:{s:5:\"value\";s:2:\"14\";s:11:\"description\";s:3:\"dia\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 87019,
+    "type": "event",
+    "title": {
+      "rendered": "A Cidade para Quem? Quotidianos cicl\u00e1veis nas ruas lisboetas no s\u00e9culo XX"
+    },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/fffff-e1678894189994.jpg",
+    "subtitle": "",
+    "subject": "artes",
+    "string_dates": ["10 abril a 21 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Esta exposi\u00e7\u00e3o est\u00e1 enquadrada nas atividades do projeto Hi-BicLab e convida a participar e refletir sobre o passado cicl\u00e1vel de Lisboa.\r\n\r\n\u00c9 fruto de um trabalho coletivo entre a equipa do proje..."
+    ],
+    "venue": {
+      "galeria-liminare": {
+        "id": 1336,
+        "slug": "galeria-liminare",
+        "name": "Galeria Liminare"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "fotografia": { "id": 67, "slug": "fotografia", "name": "fotografia" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-cidade-para-quem-2/",
+    "occurences": [
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21"
+    ],
+    "StartDate": "2023-04-10",
+    "LastDate": "2023-04-21",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 85829,
+    "type": "event",
+    "title": { "rendered": "Sarah McCoy" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/SARAH-McCOY-2-c-Anka.jpg",
+    "subtitle": ["High Priestess"],
+    "subject": "m\u00fasica",
+    "string_dates": ["10 abril 2023"],
+    "string_times": "seg: 21h",
+    "description": [
+      "Sarah McCoy regressa a Portugal para apresentar o novo disco, <em>High Priestess</em>.\u00a0\u00c0 semelhan\u00e7a de <em>Blood Siren</em> (2019), o novo disco tamb\u00e9m contou com produ\u00e7\u00e3o de Renaud Letang (Feis..."
+    ],
+    "venue": {
+      "maria-matos-teatro-municipal": {
+        "id": 175,
+        "slug": "maria-matos-teatro-municipal",
+        "name": "Teatro Maria Matos"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/sarah-mccoy-2/",
+    "occurences": ["2023-04-10"],
+    "StartDate": "2023-04-10",
+    "LastDate": "2023-04-10",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 69474,
+    "type": "event",
+    "title": { "rendered": "Pela Cal\u00e7ada - Parque das Na\u00e7\u00f5es" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/01/peddypaper_PN_adultos_agcult2023.jpg",
+    "subtitle": ["Peddy paper"],
+    "subject": "visitas guiadas",
+    "string_dates": ["11 abril a 27 julho 2023"],
+    "string_times": "",
+    "description": [
+      "Iniciativa l\u00fadico-pedag\u00f3gica, cujo objetivo \u00e9 promover a cal\u00e7ada existente no Parque das Na\u00e7\u00f5es, a qual assume neste espa\u00e7o novos desenhos e tem\u00e1ticas, da autoria de artistas contempor\u00e2neos...."
+    ],
+    "venue": {
+      "escola-de-jardinagem-e-calceteiros": {
+        "id": 649,
+        "slug": "escola-de-jardinagem-e-calceteiros",
+        "name": "Escola de Jardinagem e Calceteiros"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pela-calcada-parque-das-nacoes/",
+    "occurences": [
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-30",
+      "2023-05-31",
+      "2023-06-01",
+      "2023-06-02",
+      "2023-06-06",
+      "2023-06-07",
+      "2023-06-08",
+      "2023-06-09",
+      "2023-06-13",
+      "2023-06-14",
+      "2023-06-15",
+      "2023-06-16",
+      "2023-06-20",
+      "2023-06-21",
+      "2023-06-22",
+      "2023-06-23",
+      "2023-06-27",
+      "2023-06-28",
+      "2023-06-29",
+      "2023-06-30",
+      "2023-07-04",
+      "2023-07-05",
+      "2023-07-06",
+      "2023-07-07",
+      "2023-07-11",
+      "2023-07-12",
+      "2023-07-13",
+      "2023-07-14",
+      "2023-07-18",
+      "2023-07-19",
+      "2023-07-20",
+      "2023-07-21",
+      "2023-07-25",
+      "2023-07-26",
+      "2023-07-27"
+    ],
+    "StartDate": "2023-04-11",
+    "LastDate": "2023-07-27",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 83699,
+    "type": "event",
+    "title": {
+      "rendered": "Pela Cal\u00e7ada J\u00fanior - Parque da Na\u00e7\u00f5es"
+    },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2022/05/thumbnail_peddypaper_PN_junior_agenda2022.jpg",
+    "subtitle": ["Peddy-paper"],
+    "subject": "visitas guiadas",
+    "string_dates": ["11 abril a 27 julho 2023"],
+    "string_times": "",
+    "description": [
+      "Iniciativa l\u00fadico-pedag\u00f3gica, cujo objetivo \u00e9 promover a cal\u00e7ada existente no Parque das Na\u00e7\u00f5es, a qual assume neste espa\u00e7o novos desenhos e tem\u00e1ticas, da autoria de artistas contempor\u00e2neos...."
+    ],
+    "venue": {
+      "escola-de-jardinagem-e-calceteiros": {
+        "id": 649,
+        "slug": "escola-de-jardinagem-e-calceteiros",
+        "name": "Escola de Jardinagem e Calceteiros"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pela-calcada-junior-parque-da-nacoes/",
+    "occurences": ["2023-04-11", "2023-07-27"],
+    "StartDate": "2023-04-11",
+    "LastDate": "2023-07-27",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 84941,
+    "type": "event",
+    "title": { "rendered": "C., Celeste e a primeira virtude" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/c-celeste-e-a-primeira-virtude-crita-quelhas.jpeg",
+    "subtitle": ["Beatriz Batarda"],
+    "subject": "teatro",
+    "string_dates": ["11 abril a 22 abril 2023"],
+    "string_times": "",
+    "description": [
+      "<em>C., Celeste e a Primeira Virtude</em>\u00a0\u00e9 um espet\u00e1culo a prop\u00f3sito dos trilhos que o ensino art\u00edstico abre para o rasgo da inven\u00e7\u00e3o, esse lugar feliz em que a alma humana liga verticalmente..."
+    ],
+    "venue": {
+      "sao-luiz-teatro-municipal": {
+        "id": 572,
+        "slug": "sao-luiz-teatro-municipal",
+        "name": "S\u00e3o Luiz Teatro Municipal"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "beatriz-batarda": {
+        "id": 2329,
+        "slug": "beatriz-batarda",
+        "name": "Beatriz Batarda"
+      },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" },
+      "lingua-gestual-portuguesa": {
+        "id": 86,
+        "slug": "lingua-gestual-portuguesa",
+        "name": "l\u00edngua gestual portuguesa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/c-celeste-e-a-primeira-virtude/",
+    "occurences": [
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-21",
+      "2023-04-22"
+    ],
+    "StartDate": "2023-04-11",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:1:{i:0;a:2:{s:5:\"value\";s:2:\"12\";s:11:\"description\";s:41:\"pre\u00e7o normal (ver descontos aplic\u00e1veis)\";}}"
+    ],
+    "target_audience": {
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": {
+      "lingua-gestual-portuguesa": {
+        "id": 86,
+        "slug": "lingua-gestual-portuguesa",
+        "name": "l\u00edngua gestual portuguesa"
+      }
+    }
+  },
+  {
+    "id": 87016,
+    "type": "event",
+    "title": { "rendered": "Pedro Besugo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Reverso-e1678893207558.png",
+    "subtitle": ["Reverso"],
+    "subject": "artes",
+    "string_dates": ["13 abril a 30 junho 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "A exposi\u00e7\u00e3o <em>Reverso</em>, de Pedro Besugo, compreende um conjunto de trabalhos em que a pintura e o desenho se constituem instrumentos pelo qual o autor nos revela um universo de arquitet\u00f3nicas..."
+    ],
+    "venue": {
+      "galeria-cisterna": {
+        "id": 2360,
+        "slug": "galeria-cisterna",
+        "name": "Galeria Cisterna"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pedro-besugo/",
+    "occurences": [
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-15",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-27",
+      "2023-05-30",
+      "2023-05-31",
+      "2023-06-01",
+      "2023-06-02",
+      "2023-06-03",
+      "2023-06-06",
+      "2023-06-07",
+      "2023-06-08",
+      "2023-06-09",
+      "2023-06-10",
+      "2023-06-13",
+      "2023-06-14",
+      "2023-06-15",
+      "2023-06-16",
+      "2023-06-17",
+      "2023-06-20",
+      "2023-06-21",
+      "2023-06-22",
+      "2023-06-23",
+      "2023-06-24",
+      "2023-06-27",
+      "2023-06-28",
+      "2023-06-29",
+      "2023-06-30"
+    ],
+    "StartDate": "2023-04-13",
+    "LastDate": "2023-06-30",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86387,
+    "type": "event",
+    "title": { "rendered": "Baudelaire" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/baudelaire.jpg",
+    "subtitle": ["Alexandre Pa\u00efta"],
+    "subject": "teatro",
+    "string_dates": ["13 abril a 16 abril 2023"],
+    "string_times": "qui: 19h30; sex: 19h30; s\u00e1b: 19h30; dom: 16h30",
+    "description": [
+      "<em>No espet\u00e1culo desenhado por Alexandre Pa\u00efta e Melissa Cascarino vamos encontrar uma correspond\u00eancia cavernosa e luminosa entre os dom\u00ednios do po\u00e9tico, do musical e do pl\u00e1stico, um covil onde..."
+    ],
+    "venue": {
+      "teatro-taborda": {
+        "id": 771,
+        "slug": "teatro-taborda",
+        "name": "Teatro Taborda"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "charles-baudelaire": {
+        "id": 3073,
+        "slug": "charles-baudelaire",
+        "name": "Charles Baudelaire"
+      },
+      "performance": { "id": 80, "slug": "performance", "name": "performance" }
+    },
+    "link": "https://www.agendalx.pt/events/event/baudelaire/",
+    "occurences": ["2023-04-13", "2023-04-14", "2023-04-15", "2023-04-16"],
+    "StartDate": "2023-04-13",
+    "LastDate": "2023-04-16",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87152,
+    "type": "event",
+    "title": { "rendered": "Anna Setton" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Still-8.jpg",
+    "subtitle": ["O Futuro \u00e9 mais Bonito"],
+    "subject": "m\u00fasica",
+    "string_dates": ["13 abril 2023"],
+    "string_times": "qui: 21h",
+    "description": [
+      "<em>O Futuro \u00e9 mais Bonito</em> \u00e9 o terceiro disco da brasileira Anna Setton, que sobe este m\u00eas ao palco do CCB. O disco foi concebido em 2022 - ano em que a cantora se mudou para Portugal - e fala..."
+    ],
+    "venue": false,
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": { "mpb": { "id": 952, "slug": "mpb", "name": "MPB" } },
+    "link": "https://www.agendalx.pt/events/event/anna-setton/",
+    "occurences": ["2023-04-13"],
+    "StartDate": "2023-04-13",
+    "LastDate": "2023-04-13",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:10:\"15 \u20ac, 20\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87004,
+    "type": "event",
+    "title": { "rendered": "Fernando Reguera Suarez" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/dddd-2.jpg",
+    "subtitle": ["Sue\u00f1os de metal"],
+    "subject": "artes",
+    "string_dates": ["14 abril a 19 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "O artista espanhol mostra os diferentes caminhos que tomou na sua longa carreira como escultor.\r\n\r\nDos seus personagens em a\u00e7\u00e3o \u00e0s suas poderosas constru\u00e7\u00f5es de pontes e aldeias, os materiais pre..."
+    ],
+    "venue": {
+      "galeria-antonio-prates": {
+        "id": 2142,
+        "slug": "galeria-antonio-prates",
+        "name": "Galeria Ant\u00f3nio Prates"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "escultura": { "id": 65, "slug": "escultura", "name": "escultura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/fernando-reguera-suarez/",
+    "occurences": [
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-05-01",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-08",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-15",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19"
+    ],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-05-19",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86383,
+    "type": "event",
+    "title": { "rendered": "Upside down Cuppa coffee" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/UPSIDE-DOWN-NOVO-1473-Edit-2.jpg",
+    "subtitle": ["Afonso Molinar"],
+    "subject": "teatro",
+    "string_dates": ["14 abril a 15 abril 2023"],
+    "string_times": "sex: 19h; s\u00e1b: 19h",
+    "description": [
+      "<em>O tempo da acc\u0327a\u0303o e\u0301 uma sinapse<span lang=\"pt\">;</span><span lang=\"pt\">\u00a0</span><span lang=\"pt\">u</span>ma\u00a0<span lang=\"pt\">pausa;\u00a0</span>um momento\u00a0<span lang=\"pt\">de</span>\u00a0relaxamento.<..."
+    ],
+    "venue": {
+      "avenidas-um-teatro-em-cada-bairro": {
+        "id": 5290,
+        "slug": "avenidas-um-teatro-em-cada-bairro",
+        "name": "Avenidas - Um Teatro em Cada Bairro"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/upside-down-cuppa-coffee/",
+    "occurences": ["2023-04-14", "2023-04-15"],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-04-15",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87161,
+    "type": "event",
+    "title": { "rendered": "Rita Blanco e Nuno Vieira de Almeida" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Nem-de-faca-nem-de-alguidar-Melodramas.jpg",
+    "subtitle": ["Nem de faca, nem de..."],
+    "subject": "m\u00fasica",
+    "string_dates": ["14 abril 2023"],
+    "string_times": "sex: 19h",
+    "description": [
+      "O CCB recebe Rita Blanco e Nuno Vieira de Almeida para um recital de voz e piano intitulado <em>Nem de faca, nem de alguidar: melodramas!</em>.\r\n<p style=\"padding-left: 40px;\"><strong>Programa\r\n</stro..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "recital": { "id": 5391, "slug": "recital", "name": "recital" }
+    },
+    "link": "https://www.agendalx.pt/events/event/rita-blanco-e-nuno-vieira-de-almeida/",
+    "occurences": ["2023-04-14"],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"10\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87035,
+    "type": "event",
+    "title": { "rendered": "Bill Callahan" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/430fc351_BillCallahan_byHanlyBanksCallahan_03.jpg",
+    "subtitle": ["ytilaeR"],
+    "subject": "m\u00fasica",
+    "string_dates": ["14 abril 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "<em>ytilaeR </em>pode parecer uma palavra estranha (os mais atentos reparar\u00e3o que \u00e9 \u2018reality\u2019 escrito ao contr\u00e1rio) mas \u00e9 o original t\u00edtulo do mais recente disco de Bill Callahan. Tamb\u00e9m con..."
+    ],
+    "venue": {
+      "teatro-tivoli-bbva": {
+        "id": 784,
+        "slug": "teatro-tivoli-bbva",
+        "name": "Teatro Tivoli BBVA"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "blues": { "id": 1868, "slug": "blues", "name": "blues" },
+      "folk": { "id": 1310, "slug": "folk", "name": "folk" }
+    },
+    "link": "https://www.agendalx.pt/events/event/bill-callahan/",
+    "occurences": ["2023-04-14"],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"20 \u20ac a 30\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87166,
+    "type": "event",
+    "title": { "rendered": "3MA" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/3MA.jpg",
+    "subtitle": ["Ciclo 'A Voz Humana'"],
+    "subject": "m\u00fasica",
+    "string_dates": ["14 abril 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "3MA \u00e9 o encontro de Ballak\u00e9 Sissoko, Driss el Maloumi e Rajery - tr\u00eas virtuosos m\u00fasicos de cordas, emblem\u00e1ticos dos seus pa\u00edses em \u00c1frica, mas tamb\u00e9m artistas generosos que partilham uma paix?..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-do-mundo": {
+        "id": 1361,
+        "slug": "musica-do-mundo",
+        "name": "m\u00fasica do mundo"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/3ma/",
+    "occurences": ["2023-04-14"],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-04-14",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:10:\"12 \u20ac, 15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 81053,
+    "type": "event",
+    "title": { "rendered": "Escolhas" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2022/12/tochas.jpg",
+    "subtitle": ["Pedro Tochas"],
+    "subject": "stand up comedy",
+    "string_dates": ["14 abril a 22 abril 2023"],
+    "string_times": "sex: 21h30; s\u00e1b: 21h30",
+    "description": [
+      "Uma divertida e alucinada viagem pelas escolhas, algumas delas duvidosas, que Pedro Tochas fez ao longo dos \u00faltimos tempos.\r\n\r\nSem filtros, nem medos, uma partilha aberta de hist\u00f3rias surpreendentes..."
+    ],
+    "venue": {
+      "boutique-da-cultura": {
+        "id": 446,
+        "slug": "boutique-da-cultura",
+        "name": "Boutique da Cultura"
+      }
+    },
+    "categories_name_list": {
+      "stand-up-comedy": {
+        "id": 4737,
+        "slug": "stand-up-comedy",
+        "name": "stand up comedy"
+      }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/escolhas-2/",
+    "occurences": ["2023-04-14", "2023-04-15", "2023-04-21", "2023-04-22"],
+    "StartDate": "2023-04-14",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"12\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86609,
+    "type": "event",
+    "title": { "rendered": "Ainda Mais Alto!" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/MAIS-ALTO_-Bernardo-Carvalho.jpg",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["15 abril a 23 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Este \u00e9 um concerto em viagem, pelo tempo e pelo espa\u00e7o, para descobrir algumas das m\u00fasicas que nos juntaram e que precis\u00e1mos de cantar (bem alto!) para nos fazermos ouvir.\r\n\r\nDepois da primeira ve..."
+    ],
+    "venue": {
+      "lu-ca-teatro-luis-de-camoes": {
+        "id": 1244,
+        "slug": "lu-ca-teatro-luis-de-camoes",
+        "name": "LU.CA - Teatro Lu\u00eds de Cam\u00f5es"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "audiodescricao": {
+        "id": 5409,
+        "slug": "audiodescricao",
+        "name": "audiodescri\u00e7\u00e3o"
+      },
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "sessao-descontraida": {
+        "id": 87,
+        "slug": "sessao-descontraida",
+        "name": "sess\u00e3o descontra\u00edda"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/ainda-mais-alto/",
+    "occurences": ["2023-04-15", "2023-04-16", "2023-04-22", "2023-04-23"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-23",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:2:{i:0;a:2:{s:5:\"value\";s:1:\"3\";s:11:\"description\";s:18:\"menores de 18 anos\";}i:1;a:2:{s:5:\"value\";s:1:\"7\";s:11:\"description\";s:18:\"maiores de 18 anos\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": {
+      "audiodescricao": {
+        "id": 5409,
+        "slug": "audiodescricao",
+        "name": "audiodescri\u00e7\u00e3o"
+      },
+      "sessao-descontraida": {
+        "id": 87,
+        "slug": "sessao-descontraida",
+        "name": "sess\u00e3o descontra\u00edda"
+      }
+    }
+  },
+  {
+    "id": 86970,
+    "type": "event",
+    "title": { "rendered": "Luzia Lage e Paul Mathieu" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/ffff-2.jpg",
+    "subtitle": ["Dois olhares"],
+    "subject": "artes",
+    "string_dates": ["15 abril a 29 abril 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Espreitar o nada, escutar o sil\u00eancio ou tocar o vazio, ser\u00e3o uma realidade imposs\u00edvel ou alimento para a imagina\u00e7\u00e3o?\r\n\r\nContinuo a sentar-me em frente ao cavalete, fa\u00e7o-lhe preguntas, atiro-lhe..."
+    ],
+    "venue": {
+      "cnap-clube-nacional-de-artes-plasticas": {
+        "id": 522,
+        "slug": "cnap-clube-nacional-de-artes-plasticas",
+        "name": "CNAP - Clube Nacional de Artes Pl\u00e1sticas"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "coletiva": { "id": 92, "slug": "coletiva", "name": "coletiva" },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/luzia-lage-e-paul-mathieu/",
+    "occurences": [
+      "2023-04-15",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29"
+    ],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-29",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87094,
+    "type": "event",
+    "title": { "rendered": "Catarina Leit\u00e3o" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/gggg.jpg",
+    "subtitle": ["Naturfatura"],
+    "subject": "artes",
+    "string_dates": ["15 abril a 27 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<em>Naturfatura</em> \u00e9 uma exposi\u00e7\u00e3o composta por uma s\u00e9rie de trabalhos escult\u00f3ricos e um conjunto de desenhos de grande formato. As obras de <em>Naturfatura</em> inserem-se numa pr\u00e1tica atrav?..."
+    ],
+    "venue": {
+      "carlos-carvalho-arte-contemporanea": {
+        "id": 821,
+        "slug": "carlos-carvalho-arte-contemporanea",
+        "name": "Carlos Carvalho Arte Contempor\u00e2nea"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "escultura": { "id": 65, "slug": "escultura", "name": "escultura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/catarina-leitao-2/",
+    "occurences": [
+      "2023-04-15",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-01",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-08",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-15",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-22",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-27"
+    ],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-05-27",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87097,
+    "type": "event",
+    "title": { "rendered": "Carlos Bar\u00e3o" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/vida162x130.jpg",
+    "subtitle": ["A vida com legendas"],
+    "subject": "artes",
+    "string_dates": ["15 abril a 13 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<em>Vivemos e aprendemos muito da vida em diferido. Os media formatam a nossa perce\u00e7\u00e3o e fornecem um reposit\u00f3rio de imagens inesgot\u00e1vel, geralmente acompanhado de legendas ou t\u00edtulos.</em>\r\n\r\n<em..."
+    ],
+    "venue": {
+      "trema-arte-contemporanea": {
+        "id": 1321,
+        "slug": "trema-arte-contemporanea",
+        "name": "Trema Arte Contempor\u00e2nea"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" },
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/carlos-barao-2/",
+    "occurences": [
+      "2023-04-15",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13"
+    ],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-05-13",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86313,
+    "type": "event",
+    "title": { "rendered": "De um caco faz-se um prato!" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/De-um-caco-faz-se-um-prato.jpg",
+    "subtitle": "",
+    "subject": "ci\u00eancia",
+    "string_dates": ["15 abril 2023"],
+    "string_times": "15h00",
+    "description": [
+      "No Dia Mundial da Arte, a partir de um pequeno caco exposto no N\u00facleo Museol\u00f3gico do Castelo de S\u00e3o Jorge, viajar-se-\u00e1 no tempo para descobrir a sua hist\u00f3ria e atribuir-lhe a sua forma original...."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/de-um-caco-faz-se-um-prato-2/",
+    "occurences": ["2023-04-15"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-15",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 31439,
+    "type": "event",
+    "title": { "rendered": "A Cigarra e a Formiga" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2020/09/cigarra.png",
+    "subtitle": "",
+    "subject": "teatro",
+    "string_dates": ["15 abril 2023"],
+    "string_times": "16h00",
+    "description": [
+      "Uma Cigarra pregui\u00e7osa ou sonhadora? Uma Formiga feliz ou demasiado atarefada? Tal como as esta\u00e7\u00f5es do ano nos trazem novas cores e outras surpresas, tamb\u00e9m estas duas habitantes do jardim v\u00e3o de..."
+    ],
+    "venue": {
+      "fabrica-braco-de-prata": {
+        "id": 549,
+        "slug": "fabrica-braco-de-prata",
+        "name": "F\u00e1brica Bra\u00e7o de Prata"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/a-cigarra-e-a-formiga/",
+    "occurences": ["2023-04-15"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-15",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"7\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "escolas": { "id": 88, "slug": "escolas", "name": "escolas" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86748,
+    "type": "event",
+    "title": {
+      "rendered": "O Castelo de S\u00e3o Jorge e a Cal\u00e7ada Portuguesa"
+    },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Castelo.jpg",
+    "subtitle": "",
+    "subject": "ci\u00eancia",
+    "string_dates": ["15 abril 2023"],
+    "string_times": "17h00",
+    "description": [
+      "No dia 15 de abril, \u00e0s 17H, a Sala Ogival do Castelo de S\u00e3o Jorge, acolhe a palestra <i>O Castelo de S\u00e3o Jorge na g\u00e9nese da Cal\u00e7ada Portuguesa</i>. Foi no Castelo de S\u00e3o Jorge que surgiu a cal\u00e7..."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "calcada": { "id": 5640, "slug": "calcada", "name": "Cal\u00e7ada" },
+      "urbanismo": { "id": 1269, "slug": "urbanismo", "name": "urbanismo" }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-castelo-de-sao-jorge-e-a-calcada-portuguesa/",
+    "occurences": ["2023-04-15"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-15",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84949,
+    "type": "event",
+    "title": { "rendered": "#5 Bochizami" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/Na-luto.jpg",
+    "subtitle": ["Na Lut@ e Fl\u00e1via Gusm\u00e3o"],
+    "subject": "teatro",
+    "string_dates": ["15 abril a 23 abril 2023"],
+    "string_times": "qua: 19h; qui: 19h; sex: 19h; s\u00e1b: 19h; dom: 16h",
+    "description": [
+      "<em>Na Lut@</em>\u00a0\u00e9 um projeto de longa dura\u00e7\u00e3o criado em homenagem \u00e0 produtora e ativista\u00a0Samira Pereira, integrando 5 cap\u00edtulos que resultam em objetos art\u00edsticos distintos. O\u00a0Luto e a Perda..."
+    ],
+    "venue": {
+      "sao-luiz-teatro-municipal": {
+        "id": 572,
+        "slug": "sao-luiz-teatro-municipal",
+        "name": "S\u00e3o Luiz Teatro Municipal"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/5-bochizami/",
+    "occurences": [
+      "2023-04-15",
+      "2023-04-16",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-23"
+    ],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-23",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"7\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86488,
+    "type": "event",
+    "title": { "rendered": "Alexandre Santos: o espet\u00e1culo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/alexandre-santos.jpg",
+    "subtitle": "",
+    "subject": "stand up comedy",
+    "string_dates": ["15 abril 2023"],
+    "string_times": "s\u00e1b: 20h, 21h30",
+    "description": [
+      "<em>\u00c9 do Porto, Sim Senhor(a)! Nortenho de gema, conhecido por fazer tudo de corpo e alma. Quem n\u00e3o o conhece pel\u2019O Estrondo ou pel\u2019A Gunada ou por ser uma estrela do youtube ou por j\u00e1 ter apar..."
+    ],
+    "venue": {
+      "lisboa-ao-vivo": {
+        "id": 705,
+        "slug": "lisboa-ao-vivo",
+        "name": "Lisboa ao Vivo"
+      }
+    },
+    "categories_name_list": {
+      "stand-up-comedy": {
+        "id": 4737,
+        "slug": "stand-up-comedy",
+        "name": "stand up comedy"
+      }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/alexandre-santos-o-espetaculo/",
+    "occurences": ["2023-04-15"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-15",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87040,
+    "type": "event",
+    "title": { "rendered": "David Bruno" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Cred_Renato-Cruz-Santos_David-Bruno_S_M00009-2.jpg",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["15 abril 2023"],
+    "string_times": "s\u00e1b: 21h",
+    "description": [
+      "David Bruno, o Rei da Portugalidade, est\u00e1 de volta \u00e0 capital para um concerto em nome pr\u00f3prio no Tivoli BBVA. Este espet\u00e1culo conta com \u00eaxitos mais recentes, temas mais cl\u00e1ssicos, convidados ine..."
+    ],
+    "venue": {
+      "teatro-tivoli-bbva": {
+        "id": 784,
+        "slug": "teatro-tivoli-bbva",
+        "name": "Teatro Tivoli BBVA"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-portuguesa": {
+        "id": 1489,
+        "slug": "musica-portuguesa",
+        "name": "m\u00fasica portuguesa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/david-bruno-2/",
+    "occurences": ["2023-04-15"],
+    "StartDate": "2023-04-15",
+    "LastDate": "2023-04-15",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"12\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 84811,
+    "type": "event",
+    "title": { "rendered": "Um Hotel de Insetos" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/IMG_20220915_155956.jpg",
+    "subtitle": "",
+    "subject": "ci\u00eancia",
+    "string_dates": ["16 abril 2023"],
+    "string_times": "10h30",
+    "description": [
+      "Para descobrir o hotel de insetos do Museu e a sua import\u00e2ncia para o ecossistema."
+    ],
+    "venue": {
+      "museu-de-lisboa-palacio-pimenta": {
+        "id": 177,
+        "slug": "museu-de-lisboa-palacio-pimenta",
+        "name": "Museu de Lisboa - Pal\u00e1cio Pimenta"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/um-hotel-de-insetos/",
+    "occurences": ["2023-04-16"],
+    "StartDate": "2023-04-16",
+    "LastDate": "2023-04-16",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:1:{i:0;a:2:{s:5:\"value\";s:1:\"3\";s:11:\"description\";s:23:\"inclui entrada no museu\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 87257,
+    "type": "event",
+    "title": { "rendered": "Pedro e o Lobo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/PW-GBC-final_1600x1000.jpg",
+    "subtitle": ["Concertos de Domingo"],
+    "subject": "m\u00fasica",
+    "string_dates": ["16 abril 2023"],
+    "string_times": "dom: 12h, 17h",
+    "description": [
+      "Em 1936, foi pedido ao compositor Sergei Prokofiev que criasse uma obra dirigida aos mais jovens que apresentasse os instrumentos integrantes de uma orquestra. Para criar a hist\u00f3ria perfeita que dess..."
+    ],
+    "venue": {
+      "fundacao-calouste-gulbenkian": {
+        "id": 298,
+        "slug": "fundacao-calouste-gulbenkian",
+        "name": "Funda\u00e7\u00e3o Calouste Gulbenkian"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pedro-e-o-lobo-2/",
+    "occurences": ["2023-04-16"],
+    "StartDate": "2023-04-16",
+    "LastDate": "2023-04-16",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 84959,
+    "type": "event",
+    "title": { "rendered": "CEGUEIRA - A mulher que consegue ver" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/02/CEGUEIRA.jpg",
+    "subtitle": ["Baseado em J. Saramago"],
+    "subject": "teatro",
+    "string_dates": ["16 abril 2023"],
+    "string_times": "dom: 17h",
+    "description": [
+      "A partir de <em>Ensaio sobre a Cegueira</em> de Jos\u00e9 Saramago, \"<em>este novo teatro musical dirigido por</em> [Arturo] <em>Fuentes \u00e9, deliberadamente, uma reflex\u00e3o sobre a pandemia Covid 19 que te..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "jose-saramago": {
+        "id": 1008,
+        "slug": "jose-saramago",
+        "name": "Jos\u00e9 Saramago"
+      },
+      "teatro-musical": {
+        "id": 1034,
+        "slug": "teatro-musical",
+        "name": "teatro musical"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/cegueira-a-mulher-que-consegue-ver/",
+    "occurences": ["2023-04-16"],
+    "StartDate": "2023-04-16",
+    "LastDate": "2023-04-16",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87245,
+    "type": "event",
+    "title": { "rendered": "Dave Douglas & Joey Baron" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/dave-douglas-joey-baron.png",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["16 abril 2023"],
+    "string_times": "dom: 19h",
+    "description": [
+      "Esta \u00e9 uma noite, tamb\u00e9m, sobre Nova Iorque, essa cidade onde muitos artistas acorreram para vencer, para ter nome, para trabalhar. Como foi o caso de ambos os m\u00fasicos que visitam a Culturgest em a..."
+    ],
+    "venue": {
+      "culturgest": { "id": 303, "slug": "culturgest", "name": "Culturgest" }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "jazz": { "id": 1086, "slug": "jazz", "name": "jazz" }
+    },
+    "link": "https://www.agendalx.pt/events/event/dave-douglas-joey-baron/",
+    "occurences": ["2023-04-16"],
+    "StartDate": "2023-04-16",
+    "LastDate": "2023-04-16",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"18\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86939,
+    "type": "event",
+    "title": { "rendered": "Jorge Mar\u00e7al da Silva" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/PT-AMLSB-JMS-002069-scaled.jpg",
+    "subtitle": ["A dimens\u00e3o imersiva"],
+    "subject": "artes",
+    "string_dates": ["18 abril a 31 agosto 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Cirurgi\u00e3o e fot\u00f3grafo amador, Jorge Mar\u00e7al da Silva (1878-1929) registou a sua primeira fotografia \u2013 um retrato de fam\u00edlia numa tarde de domingo no jardim da sua casa, em Lisboa \u2013 a 12 de agos..."
+    ],
+    "venue": {
+      "arquivo-municipal-de-lisboa-fotografico": {
+        "id": 225,
+        "slug": "arquivo-municipal-de-lisboa-fotografico",
+        "name": "Arquivo Municipal de Lisboa - Fotogr\u00e1fico"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "fotografia": { "id": 67, "slug": "fotografia", "name": "fotografia" },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/jorge-marcal-da-silva/",
+    "occurences": [
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-01",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-08",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-15",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-22",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-27",
+      "2023-05-29",
+      "2023-05-30",
+      "2023-05-31",
+      "2023-06-01",
+      "2023-06-02",
+      "2023-06-03",
+      "2023-06-05",
+      "2023-06-06",
+      "2023-06-07",
+      "2023-06-08",
+      "2023-06-09",
+      "2023-06-10",
+      "2023-06-12",
+      "2023-06-13",
+      "2023-06-14",
+      "2023-06-15",
+      "2023-06-16",
+      "2023-06-17",
+      "2023-06-19",
+      "2023-06-20",
+      "2023-06-21",
+      "2023-06-22",
+      "2023-06-23",
+      "2023-06-24",
+      "2023-06-26",
+      "2023-06-27",
+      "2023-06-28",
+      "2023-06-29",
+      "2023-06-30",
+      "2023-07-01",
+      "2023-07-03",
+      "2023-07-04",
+      "2023-07-05",
+      "2023-07-06",
+      "2023-07-07",
+      "2023-07-08",
+      "2023-07-10",
+      "2023-07-11",
+      "2023-07-12",
+      "2023-07-13",
+      "2023-07-14",
+      "2023-07-15",
+      "2023-07-17",
+      "2023-07-18",
+      "2023-07-19",
+      "2023-07-20",
+      "2023-07-21",
+      "2023-07-22",
+      "2023-07-24",
+      "2023-07-25",
+      "2023-07-26",
+      "2023-07-27",
+      "2023-07-28",
+      "2023-07-29",
+      "2023-07-31",
+      "2023-08-01",
+      "2023-08-02",
+      "2023-08-03",
+      "2023-08-04",
+      "2023-08-05",
+      "2023-08-07",
+      "2023-08-08",
+      "2023-08-09",
+      "2023-08-10",
+      "2023-08-11",
+      "2023-08-12",
+      "2023-08-14",
+      "2023-08-15",
+      "2023-08-16",
+      "2023-08-17",
+      "2023-08-18",
+      "2023-08-19",
+      "2023-08-21",
+      "2023-08-22",
+      "2023-08-23",
+      "2023-08-24",
+      "2023-08-25",
+      "2023-08-26",
+      "2023-08-28",
+      "2023-08-29",
+      "2023-08-30",
+      "2023-08-31"
+    ],
+    "StartDate": "2023-04-18",
+    "LastDate": "2023-08-31",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86317,
+    "type": "event",
+    "title": { "rendered": "Puzzles e Monumentos" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/22_JAN_O_Cofre_das_Reliquias.jpg",
+    "subtitle": ["Lisboa antes do terramoto de 1755"],
+    "subject": "ci\u00eancia",
+    "string_dates": ["18 abril 2023"],
+    "string_times": "16h00",
+    "description": [
+      "No Dia Internacional dos Monumentos e S\u00edtios, convida-se a ir ao Castelo montar o puzzle de uma antiga imagem de Lisboa. Atrav\u00e9s desse puzzle ser\u00e1 poss\u00edvel descobrir como era a cidade de Lisboa an..."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/puzzles-e-monumentos/",
+    "occurences": ["2023-04-18"],
+    "StartDate": "2023-04-18",
+    "LastDate": "2023-04-18",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86406,
+    "type": "event",
+    "title": { "rendered": "Trair e co\u00e7ar \u00e9 s\u00f3 come\u00e7ar" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/trair-e-cocar.jpg",
+    "subtitle": ["Marcos Caruso"],
+    "subject": "teatro",
+    "string_dates": ["19 abril a 30 abril 2023"],
+    "string_times": "qua: 21h; qui: 21h; sex: 21h; s\u00e1b: 21h; dom: 17h",
+    "description": [
+      "A com\u00e9dia retrata as confus\u00f5es da empregada Palmira que numa s\u00e9rie de divertidos mal-entendidos leva os seus patr\u00f5es a pensarem que est\u00e3o a ser alvo de infidelidades.\r\nA pe\u00e7a gira \u00e0 volta dessa..."
+    ],
+    "venue": {
+      "casino-de-lisboa": {
+        "id": 653,
+        "slug": "casino-de-lisboa",
+        "name": "Casino de Lisboa"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": {
+      "comedia": { "id": 1516, "slug": "comedia", "name": "com\u00e9dia" },
+      "jose-raposo-2": {
+        "id": 5399,
+        "slug": "jose-raposo-2",
+        "name": "Jos\u00e9 Raposo"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/trair-e-cocar-e-so-comecar-2/",
+    "occurences": [
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-23",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-04-30"
+    ],
+    "StartDate": "2023-04-19",
+    "LastDate": "2023-04-30",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"20 \u20ac a 22\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86432,
+    "type": "event",
+    "title": { "rendered": "Passei \u00e0 hist\u00f3ria" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/PASSEI_A_HISTORIA_755x470.png",
+    "subtitle": ["Rui Malvarez"],
+    "subject": "stand up comedy",
+    "string_dates": ["7 mar\u00e7o a 19 abril 2023"],
+    "string_times": "",
+    "description": [
+      "<em>Rui Malvarez, 39 anos, assustou-se com a aproxima\u00e7\u00e3o aos 40 e receia passar \u00e0 hist\u00f3ria. Vendeu a sua empresa, mudou-se da Avenida de Roma para a Amadora, deixou de fazer a revis\u00e3o do carro e..."
+    ],
+    "venue": {
+      "teatro-villaret": {
+        "id": 785,
+        "slug": "teatro-villaret",
+        "name": "Teatro Villaret"
+      }
+    },
+    "categories_name_list": {
+      "stand-up-comedy": {
+        "id": 4737,
+        "slug": "stand-up-comedy",
+        "name": "stand up comedy"
+      }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/passei-a-historia/",
+    "occurences": ["2023-03-07", "2023-04-19"],
+    "StartDate": "2023-04-19",
+    "LastDate": "2023-04-19",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"15\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 83677,
+    "type": "event",
+    "title": { "rendered": "Pela Cal\u00e7ada - Av. da Liberdade" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/01/visitcalcadaAvLiberdade_agcult2023.jpg",
+    "subtitle": "",
+    "subject": "visitas guiadas",
+    "string_dates": ["20 abril a 20 julho 2023"],
+    "string_times": "",
+    "description": [
+      "Organizada pela Escola de Calceteiros, da C\u00e2mara Municipal de Lisboa, visa dar a conhecer alguns pontos da cal\u00e7ada art\u00edstica portuguesa, presentes nos passeios da cidade.\r\n\r\nTem in\u00edcio na Pra\u00e7a D..."
+    ],
+    "venue": {
+      "escola-de-jardinagem-e-calceteiros": {
+        "id": 649,
+        "slug": "escola-de-jardinagem-e-calceteiros",
+        "name": "Escola de Jardinagem e Calceteiros"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "18": { "id": 957, "slug": "18", "name": "+ 18" },
+      "calcada-portuguesa": {
+        "id": 4749,
+        "slug": "calcada-portuguesa",
+        "name": "cal\u00e7ada portuguesa"
+      },
+      "gratuito": { "id": 5121, "slug": "gratuito", "name": "gratuito" }
+    },
+    "link": "https://www.agendalx.pt/events/event/pela-cacada-av-da-liberdade/",
+    "occurences": ["2023-04-20", "2023-07-20"],
+    "StartDate": "2023-04-20",
+    "LastDate": "2023-07-20",
+    "price_cat": ["free"],
+    "price_val": "",
+    "target_audience": { "18": { "id": 957, "slug": "18", "name": "+ 18" } },
+    "accessibility": []
+  },
+  {
+    "id": 87171,
+    "type": "event",
+    "title": { "rendered": "Carta Branca a Pedro Carneiro" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/Pedro-Carneiro-c-Patricia-Andrade.jpg",
+    "subtitle": ["# 2 M\u00fasica de C\u00e2mara"],
+    "subject": "m\u00fasica",
+    "string_dates": ["20 abril 2023"],
+    "string_times": "qui: 21h",
+    "description": [
+      "No segundo concerto que apresenta no CCB em abril de 2023, Pedro Carneiro ir\u00e1 partilhar o palco com os m\u00fasicos do <em>ensemble</em> inclusivo Notas de Contacto, assim como apresentar a estreia absol..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-classica": {
+        "id": 950,
+        "slug": "musica-classica",
+        "name": "cl\u00e1ssica"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/carta-branca-a-pedro-carneiro-2/",
+    "occurences": ["2023-04-20"],
+    "StartDate": "2023-04-20",
+    "LastDate": "2023-04-20",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:4:\"17,5\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87234,
+    "type": "event",
+    "title": { "rendered": "Tim Hecker" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/tim-hecker-scaled.jpeg",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["20 abril 2023"],
+    "string_times": "qui: 21h",
+    "description": [
+      "Num grande comp\u00eandio da m\u00fasica eletr\u00f3nica contempor\u00e2nea, Tim Hecker ter\u00e1 direito a uma boa contribui\u00e7\u00e3o, recheada de sons de uma parte consider\u00e1vel da sua discografia. Com efeito, s\u00e3o vinte a..."
+    ],
+    "venue": {
+      "culturgest": { "id": 303, "slug": "culturgest", "name": "Culturgest" }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "eletronica": {
+        "id": 1309,
+        "slug": "eletronica",
+        "name": "eletr\u00f3nica"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/tim-hecker/",
+    "occurences": ["2023-04-20"],
+    "StartDate": "2023-04-20",
+    "LastDate": "2023-04-20",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"16\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87269,
+    "type": "event",
+    "title": { "rendered": "Beatriz Pessoa" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/LMPL7547.jpg",
+    "subtitle": ["Prazer Prazer"],
+    "subject": "m\u00fasica",
+    "string_dates": ["20 abril 2023"],
+    "string_times": "qui: 22h",
+    "description": [
+      "Beatriz Pessoa prepara-se para apresentar o segundo disco, <em>Prazer Prazer</em>, sucessor de <em>Primaveras</em>. O \u00e1lbum inclui dez can\u00e7\u00f5es em portugu\u00eas ornamentadas com uma sonoridade que mist..."
+    ],
+    "venue": { "b-leza": { "id": 965, "slug": "b-leza", "name": "B.Leza" } },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "alternativa": {
+        "id": 1102,
+        "slug": "alternativa",
+        "name": "alternativa"
+      },
+      "bossa-nova-2": {
+        "id": 2603,
+        "slug": "bossa-nova-2",
+        "name": "bossa nova"
+      },
+      "musica-portuguesa": {
+        "id": 1489,
+        "slug": "musica-portuguesa",
+        "name": "m\u00fasica portuguesa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/beatriz-pessoa-3/",
+    "occurences": ["2023-04-20"],
+    "StartDate": "2023-04-20",
+    "LastDate": "2023-04-20",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:2:\"10\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86949,
+    "type": "event",
+    "title": { "rendered": "Joaquim Marques" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/DSC0879_00002a-scaled.jpg",
+    "subtitle": ["O que for, quando for, \u00e9 que ser\u00e1 o que \u00e9"],
+    "subject": "artes",
+    "string_dates": ["21 abril a 26 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "<em>A exposi\u00e7\u00e3o \u201cO que for, quando for, \u00e9 que ser\u00e1 o que \u00e9\u201d, permite-nos um olhar sobre um projeto em processo que envolve trabalhos a \u00f3leo e em aguarela desenvolvidos por Joaquim Marques h?..."
+    ],
+    "venue": {
+      "ato-abstrato": {
+        "id": 2891,
+        "slug": "ato-abstrato",
+        "name": "Ato Abstrato, Galeria de Arte"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/joaquim-marques-2/",
+    "occurences": [
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26"
+    ],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-05-26",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86992,
+    "type": "event",
+    "title": { "rendered": "Emanuel de Sousa" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/3.jpeg",
+    "subtitle": ["Lilith\u2019s covenant: the god, the beast and the woman"],
+    "subject": "artes",
+    "string_dates": ["21 abril a 20 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "Embora a hist\u00f3ria de Lilith n\u00e3o seja do conhecimento comum da maioria, esta \u00e9 uma antiga narrativa mundial que data desde os tempos dos Sum\u00e9rios e da regi\u00e3o da Mesopot\u00e2mia.\r\n\r\nSegundo registos h..."
+    ],
+    "venue": {
+      "espaco-exibicionista": {
+        "id": 258,
+        "slug": "espaco-exibicionista",
+        "name": "Espa\u00e7o Exibicionista"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "pintura": { "id": 81, "slug": "pintura", "name": "pintura" }
+    },
+    "link": "https://www.agendalx.pt/events/event/emanuel-de-sousa-2/",
+    "occurences": [
+      "2023-04-21",
+      "2023-04-22",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-01",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-08",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-15",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-20"
+    ],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-05-20",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86386,
+    "type": "event",
+    "title": { "rendered": "Upside down Cuppa coffee" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/UPSIDE-DOWN-NOVO-1473-Edit-2.jpg",
+    "subtitle": ["Afonso Molinar"],
+    "subject": "teatro",
+    "string_dates": ["21 abril a 23 abril 2023"],
+    "string_times": "19h00",
+    "description": [
+      "<em>O tempo da acc\u0327a\u0303o e\u0301 uma sinapse<span lang=\"pt\">;</span><span lang=\"pt\">\u00a0</span><span lang=\"pt\">u</span>ma\u00a0<span lang=\"pt\">pausa;\u00a0</span>um momento\u00a0<span lang=\"pt\">de</span>\u00a0relaxamento.<..."
+    ],
+    "venue": {
+      "sociedade-musical-ordem-e-progresso": {
+        "id": 1886,
+        "slug": "sociedade-musical-ordem-e-progresso",
+        "name": "Sociedade Musical Ordem e Progresso"
+      }
+    },
+    "categories_name_list": {
+      "teatro": { "id": 43, "slug": "teatro", "name": "teatro" }
+    },
+    "tags_name_list": [],
+    "link": "https://www.agendalx.pt/events/event/upside-down-cuppa-coffee-2/",
+    "occurences": ["2023-04-21", "2023-04-22", "2023-04-23"],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-04-23",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87225,
+    "type": "event",
+    "title": { "rendered": "Rodrigo Le\u00e3o" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/rodrigo-leao.png",
+    "subtitle": ["Piano para piano"],
+    "subject": "m\u00fasica",
+    "string_dates": ["21 abril a 22 abril 2023"],
+    "string_times": "sex: 19h30; s\u00e1b: 19h30",
+    "description": [
+      "Rodrigo Le\u00e3o \u00e9 o primeiro a dizer que n\u00e3o \u00e9 pianista, mas a verdade \u00e9 que o piano tem surgido na sua obra como um complemento dos sintetizadores que j\u00e1 usou bastas vezes para escrever memor\u00e1vei..."
+    ],
+    "venue": {
+      "museu-do-oriente": {
+        "id": 153,
+        "slug": "museu-do-oriente",
+        "name": "Museu do Oriente"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "musica-portuguesa": {
+        "id": 1489,
+        "slug": "musica-portuguesa",
+        "name": "m\u00fasica portuguesa"
+      },
+      "piano": { "id": 1584, "slug": "piano", "name": "piano" }
+    },
+    "link": "https://www.agendalx.pt/events/event/rodrigo-leao-5/",
+    "occurences": ["2023-04-21", "2023-04-22"],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"30 \u20ac a 40\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87045,
+    "type": "event",
+    "title": { "rendered": "M\u00e1rio Lundum" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/mario-lundum.jpg",
+    "subtitle": ["Imaterial"],
+    "subject": "m\u00fasica",
+    "string_dates": ["21 abril 2023"],
+    "string_times": "sex: 21h",
+    "description": [
+      "M\u00e1rio\u00a0Lundum, artista portugu\u00eas reconhecido, sobretudo, pelo seu percurso de 30 anos no fado, apresenta o seu mais recente \u00e1lbum, <em>Imaterial</em>, editado em comemora\u00e7\u00e3o do 10\u00ba anivers\u00e1rio..."
+    ],
+    "venue": {
+      "teatro-tivoli-bbva": {
+        "id": 784,
+        "slug": "teatro-tivoli-bbva",
+        "name": "Teatro Tivoli BBVA"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": {
+      "fado-en": { "id": 4642, "slug": "fado-en", "name": "fado" },
+      "musica-portuguesa": {
+        "id": 1489,
+        "slug": "musica-portuguesa",
+        "name": "m\u00fasica portuguesa"
+      }
+    },
+    "link": "https://www.agendalx.pt/events/event/mario-lundum/",
+    "occurences": ["2023-04-21"],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-04-21",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:14:\"12,50 \u20ac a 25\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87248,
+    "type": "event",
+    "title": { "rendered": "Seu Jorge e Daniel Jobim" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/danieljobimeseujorgefabionunes.webp",
+    "subtitle": "",
+    "subject": "m\u00fasica",
+    "string_dates": ["21 abril 2023"],
+    "string_times": "sex: 22h",
+    "description": [
+      "Seu Jorge e Daniel Jobim regressam a Lisboa para um concerto na Altice Arena, a 21 de abril. Os dois m\u00fasicos ir\u00e3o interpretar a obra de um dos artistas mais relevantes da m\u00fasica popular brasileira,..."
+    ],
+    "venue": {
+      "altice-arena": {
+        "id": 946,
+        "slug": "altice-arena",
+        "name": "Altice Arena"
+      }
+    },
+    "categories_name_list": {
+      "musica": { "id": 42, "slug": "musica", "name": "m\u00fasica" }
+    },
+    "tags_name_list": { "mpb": { "id": 952, "slug": "mpb", "name": "MPB" } },
+    "link": "https://www.agendalx.pt/events/event/seu-jorge-e-daniel-jobim/",
+    "occurences": ["2023-04-21"],
+    "StartDate": "2023-04-21",
+    "LastDate": "2023-04-21",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:11:\"30 \u20ac a 60\";}}"],
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 86784,
+    "type": "event",
+    "title": { "rendered": "Francisco Couto" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/20230311_181404-scaled-e1678706287409.jpg",
+    "subtitle": ["S\u00e3o s\u00f3 linhas"],
+    "subject": "artes",
+    "string_dates": ["22 abril a 13 maio 2023"],
+    "string_times": "v\u00e1rios hor\u00e1rios",
+    "description": [
+      "...As linhas. A introspe\u00e7\u00e3o. O lado amoroso e harmonioso da vida."
+    ],
+    "venue": {
+      "galeria-novo-seculo": {
+        "id": 5644,
+        "slug": "galeria-novo-seculo",
+        "name": "Galeria Novo S\u00e9culo"
+      }
+    },
+    "categories_name_list": {
+      "artes": { "id": 1, "slug": "artes", "name": "artes" }
+    },
+    "tags_name_list": {
+      "desenho": { "id": 60, "slug": "desenho", "name": "desenho" }
+    },
+    "link": "https://www.agendalx.pt/events/event/francisco-couto/",
+    "occurences": [
+      "2023-04-22",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-04-29",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-06",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13"
+    ],
+    "StartDate": "2023-04-22",
+    "LastDate": "2023-05-13",
+    "price_cat": ["unknown"],
+    "price_val": "",
+    "target_audience": [],
+    "accessibility": []
+  },
+  {
+    "id": 87249,
+    "type": "event",
+    "title": { "rendered": "'Cinderela', de Loote Reiniger" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/maxresdefault.jpg",
+    "subtitle": ["Cine-concerto"],
+    "subject": "cinema",
+    "string_dates": ["22 abril a 23 abril 2023"],
+    "string_times": "s\u00e1b: 15h30; dom: 11h30",
+    "description": [
+      "Cinderela vivia com a sua madrasta e as duas meias-irm\u00e3s. Faziam-na limpar, costurar e cozinhar o dia todo. Lotte Reiniger usa a t\u00e9cnica de recorte de papel e sombras para revistar um cl\u00e1ssico da l..."
+    ],
+    "venue": {
+      "centro-cultural-de-belem": {
+        "id": 335,
+        "slug": "centro-cultural-de-belem",
+        "name": "Centro Cultural de Bel\u00e9m"
+      }
+    },
+    "categories_name_list": {
+      "cinema": { "id": 38, "slug": "cinema", "name": "cinema" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "link": "https://www.agendalx.pt/events/event/cinderela-de-loote-reiniger/",
+    "occurences": ["2023-04-22", "2023-04-23"],
+    "StartDate": "2023-04-22",
+    "LastDate": "2023-04-23",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"6\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" },
+      "jovens": { "id": 4926, "slug": "jovens", "name": "jovens" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 87005,
+    "type": "event",
+    "title": { "rendered": "Passeio em fam\u00edlia" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/IMG_20221020_160024430_HDR_3-scaled.jpg",
+    "subtitle": "",
+    "subject": "visitas guiadas",
+    "string_dates": ["22 abril 2023"],
+    "string_times": "10h00",
+    "description": [
+      "Os Passeios em Fam\u00edlia s\u00e3o um ramo do projeto Asas - Crescer na Floresta, destinado a fam\u00edlias e crian\u00e7as dos 0 aos 7 anos.\r\n\r\nOs passeios em fam\u00edlia com a Asas s\u00e3o caminhadas que respeitam o ri..."
+    ],
+    "venue": {
+      "asas-crescer-na-floresta": {
+        "id": 5652,
+        "slug": "asas-crescer-na-floresta",
+        "name": "Asas - Crescer na Floresta"
+      }
+    },
+    "categories_name_list": {
+      "visitas-guiadas": {
+        "id": 44,
+        "slug": "visitas-guiadas",
+        "name": "visitas guiadas"
+      }
+    },
+    "tags_name_list": {
+      "ar-livre": { "id": 27, "slug": "ar-livre", "name": "ar livre" },
+      "bebes": { "id": 955, "slug": "bebes", "name": "beb\u00e9s" },
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/passeio-em-familia/",
+    "occurences": ["2023-04-22"],
+    "StartDate": "2023-04-22",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "bebes": { "id": 955, "slug": "bebes", "name": "beb\u00e9s" },
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 87215,
+    "type": "event",
+    "title": { "rendered": "Ab\u00edlio Quaresma: o Jogo" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/philatelist-1844081_960_720.jpg",
+    "subtitle": "",
+    "subject": "literatura",
+    "string_dates": ["22 abril 2023"],
+    "string_times": "10h30",
+    "description": [
+      "\u00c9 urgente e importante! Desapareceu algo da Casa Fernando Pessoa. Agora, chama-se gente aventureira com vontade de explorar um museu como quem desvenda enigmas.\r\n\r\n\u00c9 preciso seguir pistas, identific..."
+    ],
+    "venue": {
+      "casa-fernando-pessoa": {
+        "id": 390,
+        "slug": "casa-fernando-pessoa",
+        "name": "Casa Fernando Pessoa"
+      }
+    },
+    "categories_name_list": {
+      "literatura": { "id": 41, "slug": "literatura", "name": "literatura" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/abilio-quaresma-o-jogo/",
+    "occurences": ["2023-04-22"],
+    "StartDate": "2023-04-22",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": [
+      "a:2:{i:0;a:2:{s:5:\"value\";s:1:\"5\";s:11:\"description\";s:8:\"crian\u00e7a\";}i:1;a:2:{s:5:\"value\";s:1:\"6\";s:11:\"description\";s:6:\"adulto\";}}"
+    ],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  },
+  {
+    "id": 86322,
+    "type": "event",
+    "title": { "rendered": "O Clima est\u00e1 a mudar\u2026 e n\u00f3s?" },
+    "featured_media_large": "https://www.agendalx.pt/content/uploads/2023/03/O-Clima-esta-a-mudar\u2026-e-nos.jpg",
+    "subtitle": ["Oficina inclusiva*"],
+    "subject": "ci\u00eancia",
+    "string_dates": ["22 abril 2023"],
+    "string_times": "11h00",
+    "description": [
+      "No Dia Mundial da Terra, realiza-se no Castelo de S\u00e3o Jorge uma atividade que fala sobre o planeta e como se podem ter atitudes mais sustent\u00e1veis. O planeta est\u00e1 sempre em transforma\u00e7\u00e3o e os cast..."
+    ],
+    "venue": {
+      "castelo-de-sao-jorge": {
+        "id": 686,
+        "slug": "castelo-de-sao-jorge",
+        "name": "Castelo de S\u00e3o Jorge"
+      }
+    },
+    "categories_name_list": {
+      "ciencia": { "id": 39, "slug": "ciencia", "name": "ci\u00eancia" }
+    },
+    "tags_name_list": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "link": "https://www.agendalx.pt/events/event/o-clima-esta-a-mudar-e-nos-2/",
+    "occurences": ["2023-04-22"],
+    "StartDate": "2023-04-22",
+    "LastDate": "2023-04-22",
+    "price_cat": ["value"],
+    "price_val": ["a:1:{i:0;a:1:{s:5:\"value\";s:1:\"4\";}}"],
+    "target_audience": {
+      "criancas": { "id": 18, "slug": "criancas", "name": "crian\u00e7as" },
+      "familias": { "id": 89, "slug": "familias", "name": "fam\u00edlias" }
+    },
+    "accessibility": []
+  }
+]

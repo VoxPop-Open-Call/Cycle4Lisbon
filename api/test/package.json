@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "End-to-end tests with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "lint": "eslint --max-warnings 0 cypress",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitbucket.org/pensarmais/cycleforlisbon"
+  },
+  "author": "pensarmais.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.16.0",
+    "eslint": "^8.43.0",
+    "eslint-plugin-cypress": "^2.13.3",
+    "moment": "^2.29.4",
+    "prettier": "2.8.8"
+  }
+}

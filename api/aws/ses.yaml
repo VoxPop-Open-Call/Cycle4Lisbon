@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  SESDomain:
+    Type: String
+
+Resources:
+  SESIdentity:
+    Type: AWS::SES::EmailIdentity
+    Properties:
+      EmailIdentity: !Ref SESDomain
+      MailFromAttributes:
+        MailFromDomain: !Sub "mail.${SESDomain}"
+
+Outputs:
+  Identity:
+    Value: !Ref SESIdentity
+
+  SESDkimDNSTokens:
+    Description: SES DKIM tokens
+    Value:
+      !Join [
+        "\n",
+        [
+          !Join ["  ->  ", [
+            !GetAtt SESIdentity.DkimDNSTokenName1,
+            !GetAtt SESIdentity.DkimDNSTokenValue1,
+          ]],
+          !Join ["  ->  ", [
+            !GetAtt SESIdentity.DkimDNSTokenName2,
+            !GetAtt SESIdentity.DkimDNSTokenValue2,
+          ]],
+          !Join ["  ->  ", [
+            !GetAtt SESIdentity.DkimDNSTokenName3,
+            !GetAtt SESIdentity.DkimDNSTokenValue3,
+          ]],
+        ]
+      ]

@@ -1,0 +1,119 @@
+div .headerContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+div .breadcrumbContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .breadcrumbActionStyle {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #1d2127;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+div .breadcrumbCurrentStyle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b29e;
+}
+
+div .buttonContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .buttonIconStyle {
+  margin-right: 8px;
+}
+
+div .acceptButtonStyle {
+  border-radius: 8px;
+  background-color: #00cc66;
+  padding: 10px 21px;
+  margin-right: 13px;
+  width: 140px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #309c5f;
+  }
+}
+
+div .rejectButtonStyle {
+  border-radius: 8px;
+  background-color: #e12020;
+  padding: 10px 21px;
+  width: 140px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #b92d42;
+  }
+}
+
+div .cardStyle {
+  padding: 0px;
+}
+
+div .cardHeaderStyle {
+  background-color: #1d2127;
+  padding: 28px 36px 27px 31px;
+}
+
+div .cardBodyStyle {
+  padding: 57px 51px;
+}
+
+div .userDetailsContainerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .userDetailsFieldsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #474954;
+  :nth-child(n) {
+    margin-bottom: 18px;
+  }
+  :last-child {
+    margin-bottom: 0px;
+  }
+}
+
+div .userDetailsValuesDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1d2127;
+  :nth-child(n) {
+    margin-bottom: 15px;
+  }
+  :last-child {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,23 @@
+div .containerDiv {
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div .titleStyle {
+  margin-top: 27px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1d2127;
+}
+
+div .subtitleStyle {
+  text-align: center;
+  width: 272px;
+  font-weight: 500;
+  font-size: 14px;
+  color: RGBA(29, 33, 39, 0.8);
+}

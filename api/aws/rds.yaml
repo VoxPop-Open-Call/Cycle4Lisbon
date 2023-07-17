@@ -1,0 +1,111 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  Environment:
+    Type: String
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  DatabaseUsername:
+    Type: String
+    Default: cycleforlisbon
+    Description: Name of the master user for this DB
+  DatabasePort:
+    Type: Number
+    Default: 5432
+  DatabaseInstanceClass:
+    Type: String
+    Default: db.t4g.micro
+    Description: Size of the DB Instance
+  SubnetIds:
+    Type: String
+    Description: Comma separated list of subnet Id's
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+
+Resources:
+  DBParameterGroup:
+    Type: AWS::RDS::DBParameterGroup
+    Properties:
+      Description: "PostgreSQL 14 Parameter Group"
+      Family: postgres14
+      Parameters:
+        rds.force_ssl: 1
+
+  DBSecurityGroup:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      GroupDescription: "RDS Security Group"
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - Description: "Allow external connections on pgsql via IPv4"
+          IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          CidrIp: "0.0.0.0/0"
+        - Description: "Allow external connections on pgsql via IPv6"
+          IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          CidrIpv6: "::/0"
+      Tags:
+        - Key: Name
+          Value: !Sub "${StackName}-${Environment}-rds-security-group"
+
+  DatabaseSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Description: !Sub "Secret for ${StackName}-${Environment} database"
+      Name: !Sub ${StackName}-${Environment}-db-secret
+      GenerateSecretString:
+        SecretStringTemplate: !Sub '{"username": "${DatabaseUsername}"}'
+        GenerateStringKey: password
+        PasswordLength: 16
+        ExcludeCharacters: "^ %+~`#$&*()|[]{}:;,-<>?!'/\\\",=@"
+
+  DBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: !Sub "${StackName} ${Environment} RDS Subnet Group"
+      DBSubnetGroupName: !Sub ${StackName}-${Environment}-db-subnet-group
+      SubnetIds: !Split [",", !Ref SubnetIds]
+
+  RdsDB:
+    Type: AWS::RDS::DBInstance
+    DeletionPolicy: Snapshot
+    UpdateReplacePolicy: Snapshot
+    Properties:
+      DBName: !Sub "${StackName}${Environment}"
+      AllocatedStorage: 20
+      DBInstanceClass: !Ref DatabaseInstanceClass
+      Engine: postgres
+      EngineVersion: 14.5
+      Port: !Ref DatabasePort
+      MasterUsername: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::username}}"
+      MasterUserPassword: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::password}}"
+      PubliclyAccessible: true
+      StorageEncrypted: true
+      # Support IPv4 & IPv6
+      # TODO: RDS does not yet support public RDS instances with IPv6
+      # NetworkType: DUAL
+      DBParameterGroupName: !Ref DBParameterGroup
+      DBSubnetGroupName: !Ref DBSubnetGroup
+      VPCSecurityGroups:
+        - !GetAtt DBSecurityGroup.GroupId
+      CopyTagsToSnapshot: true
+      Tags:
+        - Key: Name
+          Value: !Sub "${StackName}-${Environment}-rds"
+
+Outputs:
+  Name:
+    Value: !Sub "${StackName}${Environment}"
+  Host:
+    Value: !GetAtt RdsDB.Endpoint.Address
+  Port:
+    Value: !GetAtt RdsDB.Endpoint.Port
+  SecurityGroup:
+    Value: !Ref DBSecurityGroup
+  DatabaseSecret:
+    Value: !Ref DatabaseSecret

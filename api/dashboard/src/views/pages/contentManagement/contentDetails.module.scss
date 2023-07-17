@@ -1,0 +1,135 @@
+div .headerContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div .breadcrumbContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .breadcrumbActionStyle {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #1d2127;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+div .breadcrumbCurrentStyle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b29e;
+}
+
+div .buttonContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .buttonIconStyle {
+  margin-right: 8px;
+}
+
+div .acceptButtonStyle {
+  border-radius: 8px;
+  background-color: #00cc66;
+  padding: 10px 21px;
+  margin-right: 13px;
+  width: 140px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #309c5f;
+  }
+}
+
+div .rejectButtonStyle {
+  border-radius: 8px;
+  background-color: #e12020;
+  padding: 10px 21px;
+  width: 140px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #b92d42;
+  }
+}
+
+div .cardStyle {
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px RGBA(0, 0, 0, 0.2);
+  padding: 0px;
+}
+
+div .cardBodyStyle {
+  padding: 28px 30px;
+}
+
+div .contentTitleDiv {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1d2127;
+  margin-bottom: 2px;
+}
+
+div .contentSubtitleContainerDiv {
+  margin-bottom: 32px;
+}
+
+div .contentFieldStyle {
+  font-weight: 400;
+  font-size: 18px;
+  color: RGBA(29, 33, 39, 0.4);
+}
+
+div .contentSubTitleDiv {
+  font-weight: 500;
+  font-size: 18px;
+  color: RGBA(29, 33, 39, 0.6);
+}
+
+div .imageStyle {
+  height: 350px;
+  width: 520px;
+  margin-bottom: 25px;
+}
+
+div .descriptionStyle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d2127;
+}
+
+div .sourceLinkContainerDiv {
+  margin-top: 41px;
+  border-top: 1px solid RGBA(0, 0, 0, 0.2);
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #1d2127;
+}
+
+div .articleUrlStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #fddb30;
+  text-decoration: underline;
+}

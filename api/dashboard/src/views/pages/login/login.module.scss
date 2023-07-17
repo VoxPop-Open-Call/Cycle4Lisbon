@@ -1,0 +1,118 @@
+div .logoDiv {
+  // margin-bottom: auto;
+  margin-bottom: 15%;
+  margin-left: 10%;
+}
+
+div .positionDiv {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-image: url("../../../assets/loginBackground/bg-cycle4lisbon@0.2x.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+}
+
+div .cardStyle {
+  margin-left: auto;
+  margin-right: 18%;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-color: #000000;
+  box-shadow: 0px 0px 54px RGBA(29, 33, 39, 0.3);
+  width: fit-content;
+  padding: 0px;
+}
+
+div .cardBodyStyle {
+  padding: 90px 72px 109px 72px;
+}
+
+div .titleStyle {
+  font-weight: 700;
+  font-size: 32px;
+  color: #474954;
+  margin-bottom: 50px;
+}
+
+div .inputContainerDiv {
+  margin-bottom: 30px;
+}
+
+div .loginFieldStyle {
+  font-weight: 400;
+  font-size: 12px;
+  color: #474954;
+  margin-bottom: 4px;
+}
+
+div .subTitleStyle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #374354;
+  margin-bottom: 5px;
+}
+
+div .inputFieldsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+div .inputFieldsContainerDiv {
+  border: 1px solid RGBA(29, 33, 39, 0.16);
+  border-radius: 10.5px;
+}
+
+div .prependIconStyle {
+  background-color: #ffffff;
+  border-radius: 10.5px;
+}
+
+div .loginFields {
+  border: 1px solid RGBA(29, 33, 39, 0.16);
+  border-left: none;
+  &:focus {
+    box-shadow: none;
+    border: 1px solid RGBA(29, 33, 39, 0.16);
+    border-left: none;
+  }
+}
+
+div .buttonDivStyle {
+  margin-top: 10px;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+div .buttonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 24.5px;
+  background-color: #fddb30;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1d2127;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+div .buttonStyle:hover,
+div .buttonStyle:active,
+div .buttonStyle:focus {
+  background-color: #1d2127;
+  color: #fddb30;
+}
+
+div .errorTextStyle {
+  margin-right: auto;
+  color: red;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

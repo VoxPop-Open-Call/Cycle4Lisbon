@@ -1,0 +1,75 @@
+div .headerContainerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .userImageStyle {
+  border-radius: 50%;
+  margin-right: 26px;
+}
+
+div .userNameContainerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .nameStyle {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+div .userNameBadgeStyle {
+  margin-left: 15px;
+  border-radius: 8px;
+  background-color: RGBA(255, 255, 255, 0.15);
+  padding: 2px 11px;
+  font-weight: 700;
+  font-size: 20px;
+  color: RGBA(255, 255, 255, 0.59);
+}
+
+div .emailStyle {
+  font-weight: 400;
+  font-size: 20px;
+  color: RGBA(255, 255, 255, 0.6);
+}
+
+div .userStatsContainerDiv {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .singleUserStatContainerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .userStatsIconStyle {
+  color: #f7b40a;
+  margin-bottom: 7px;
+}
+
+div .userStatsValueStyle {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+div .userStatsDescriptionStyle {
+  font-weight: 400;
+  font-size: 12px;
+  color: RGBA(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+div .separator {
+  border: 1px solid RGBA(255, 255, 255, 0.24);
+  margin: 0px 24px;
+  padding: 5% 0px;
+}

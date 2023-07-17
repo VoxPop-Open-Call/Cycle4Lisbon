@@ -1,0 +1,58 @@
+td .buttonStyle {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 2px 17px;
+  border-radius: 14px;
+  border: 1px solid #899cad;
+  background-color: unset;
+  color: #899cad;
+  &:hover {
+    background-color: #899cad;
+    color: #ffffff;
+  }
+}
+
+tr > td > .buttonStyle:active {
+  background-color: #788ea1;
+  color: #ffffff;
+}
+
+div .sponsorContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .sponsorBadge {
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 10px;
+  border: 1px solid #1d2127;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px 5px;
+  height: fit-content;
+}
+
+div .acceptedBadge {
+  width: fit-content;
+  padding: 4px 11px;
+  background-color: #ffffff;
+  border: 1px solid #00cc66;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #00cc66;
+}
+
+div .rejectedBadge {
+  width: fit-content;
+  padding: 4px 11px;
+  background-color: #ffffff;
+  border: 1px solid #e12020;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #e12020;
+}

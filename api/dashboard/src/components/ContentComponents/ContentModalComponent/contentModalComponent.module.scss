@@ -1,0 +1,31 @@
+div .defaultDivStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+div .titleStyle {
+  font-size: 22px;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+div .subTitleStyle {
+  font-size: 15px;
+}
+
+div .imageDivStyle {
+  display: flex;
+  justify-content: center;
+}
+
+div .imageStyle {
+  width: 750px;
+}
+
+div .buttonDivStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

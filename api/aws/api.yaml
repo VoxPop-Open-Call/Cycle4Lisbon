@@ -1,0 +1,461 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  Environment:
+    Type: String
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: Select a VPC that allows instances to access the Internet.
+  SubnetIds:
+    Type: String
+    Description: Comma separated list of subnet Id's
+
+  DatabaseSecurityGroupId:
+    Type: AWS::EC2::SecurityGroup::Id
+  DatabaseSecret:
+    Type: String
+  DatabaseHost:
+    Type: String
+  DatabasePort:
+    Type: Number
+    Default: 5432
+  DatabaseName:
+    Type: String
+
+  DomainName:
+    Type: String
+
+  APIAdminUserSecret:
+    Type: String
+  FilesBucketName:
+    Type: String
+  SESDomain:
+    Type: String
+  SESFromName:
+    Type: String
+
+  APIPort:
+    Type: Number
+    Default: 8080
+  LoadBalancerPort:
+    Type: Number
+    Default: 443
+
+Resources:
+  ECRRepository:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: !Sub ${StackName}-${Environment}-api
+      EncryptionConfiguration:
+        EncryptionType: AES256
+      ImageScanningConfiguration:
+        ScanOnPush: true
+      LifecyclePolicy:
+        # For any tag value, keep the last 5 images.
+        LifecyclePolicyText: |
+          {
+            "rules": [
+              {
+                "rulePriority": 1,
+                "description": "Only keep 5 images",
+                "selection": {
+                  "tagStatus": "any",
+                  "countType": "imageCountMoreThan",
+                  "countNumber": 5
+              },
+              "action": { "type": "expire" }
+            }]
+          }
+
+  ECSCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Sub ${StackName}-${Environment}-cluster
+
+  #
+  # API Service
+  #
+  ECSService:
+    Type: AWS::ECS::Service
+    DependsOn:
+      - ECRRepository
+      - ListenerHTTPS
+    Properties:
+      ServiceName: api
+      Cluster: !Ref ECSCluster
+      DesiredCount: 1
+      TaskDefinition: !Ref TaskDefinition
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: ENABLED
+          SecurityGroups:
+            - !Ref APISecurityGroup
+          Subnets: !Split [",", !Ref SubnetIds]
+      DeploymentController:
+        Type: ECS
+      # This may need to be adjusted if the container takes a while to start up
+      HealthCheckGracePeriodSeconds: 30
+      DeploymentConfiguration:
+        MaximumPercent: 500
+        MinimumHealthyPercent: 100
+      CapacityProviderStrategy:
+        - CapacityProvider: FARGATE_SPOT
+          Base: 1
+          Weight: 1
+      LoadBalancers:
+        - ContainerName: !Sub ${StackName}-${Environment}-api
+          ContainerPort: !Ref APIPort
+          TargetGroupArn: !Ref APITargetGroup
+
+  #
+  # Task
+  #
+  TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      RequiresCompatibilities:
+        - FARGATE
+      ExecutionRoleArn: ecsTaskExecutionRole
+      TaskRoleArn: ecsTaskExecutionRole
+      Family: !Sub ${StackName}-${Environment}-api-task
+      Cpu: 256 # 0.25 vCPU
+      Memory: 512 # 512MB
+      NetworkMode: awsvpc
+      # A role needed by ECS.
+      # "The ARN of the task execution role that containers in this task can assume. All containers in this task are granted the permissions that are specified in this role."
+      # "There is an optional task execution IAM role that you can specify with Fargate to allow your Fargate tasks to make API calls to Amazon ECR."
+      ExecutionRoleArn: !Ref ExecutionRole
+      # "The Amazon Resource Name (ARN) of an AWS Identity and Access Management (IAM) role that grants containers in the task permission to call AWS APIs on your behalf."
+      TaskRoleArn: !Ref TaskRole
+      ContainerDefinitions:
+        - Name: !Sub ${StackName}-${Environment}-api
+          Image: !Join
+            - ":"
+            - - !GetAtt ECRRepository.RepositoryUri
+              - "latest"
+          Essential: true
+          # This is a soft limit
+          MemoryReservation: 384
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group: !Ref APICloudwatchLogsGroup
+              awslogs-region: !Sub "${AWS::Region}"
+              awslogs-stream-prefix: ecs
+          PortMappings:
+            - ContainerPort: !Ref APIPort
+              HostPort: !Ref APIPort
+              Protocol: tcp
+          Environment:
+            # AWS
+            - Name: AWS_REGION
+              Value: !Sub "${AWS::Region}"
+            - Name: AWS_ACCESS_KEY_ID
+              Value: !Sub "{{resolve:secretsmanager:${APIAdminUserSecret}::ACCESS_KEY}}"
+            - Name: AWS_SECRET_ACCESS_KEY
+              Value: !Sub "{{resolve:secretsmanager:${APIAdminUserSecret}::SECRET_KEY}}"
+            - Name: AWS_S3_BUCKET
+              Value: !Ref FilesBucketName
+            - Name: AWS_SES_DOMAIN
+              Value: !Ref SESDomain
+            - Name: AWS_SES_FROM_NAME
+              Value: !Ref SESFromName
+            # DB
+            - Name: DB_HOST
+              Value: !Ref DatabaseHost
+            - Name: DB_PORT
+              Value: !Ref DatabasePort
+            - Name: DB_NAME
+              Value: !Ref DatabaseName
+            - Name: DB_USER
+              Value: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::username}}"
+            - Name: DB_PASSWORD
+              Value: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::password}}"
+            - Name: DB_SSL
+              Value: "require"
+            # Dex
+            - Name: DEX_DB_HOST
+              Value: !Ref DatabaseHost
+            - Name: DEX_DB_PORT
+              Value: !Ref DatabasePort
+            - Name: DEX_DB_USER
+              Value: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::username}}"
+            - Name: DEX_DB_PASSWORD
+              Value: !Sub "{{resolve:secretsmanager:${DatabaseSecret}::password}}"
+            - Name: DEX_DB_SSL
+              Value: "require"
+            # Gin
+            - Name: GIN_MODE
+              Value: "release"
+            - Name: JWT_KEY
+              Value: !Sub "{{resolve:secretsmanager:${JWTSecret}}}"
+            - Name: API_PORT
+              Value: !Ref APIPort
+
+  APICloudwatchLogsGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub ${StackName}-${Environment}-api-logs
+      RetentionInDays: 14
+
+  JWTSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Description: !Sub "Secret for ${StackName}-${Environment} API JWT key"
+      Name: !Sub ${StackName}-${Environment}-api-jwt-secret
+      GenerateSecretString:
+        PasswordLength: 64
+
+  #
+  # API Security Group
+  #
+  APISecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: API ECS Security Group
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - Description: "Allow inbound connections via IPv4"
+          IpProtocol: tcp
+          FromPort: !Ref APIPort
+          ToPort: !Ref APIPort
+          CidrIp: "0.0.0.0/0"
+        - Description: "Allow inbound connections via IPv6"
+          IpProtocol: tcp
+          FromPort: !Ref APIPort
+          ToPort: !Ref APIPort
+          CidrIpv6: "::/0"
+  APIDBSecurityGroupIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      Description: "Allow access to the RDS DB"
+      IpProtocol: tcp
+      GroupId: !Ref DatabaseSecurityGroupId
+      SourceSecurityGroupId: !Ref APISecurityGroup
+      FromPort: !Ref DatabasePort
+      ToPort: !Ref DatabasePort
+
+  #
+  # Load Balancer
+  #
+  APITargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      HealthCheckIntervalSeconds: 10
+      # will look for a 200 status code by default unless specified otherwise
+      HealthCheckPath: /api/health
+      HealthCheckTimeoutSeconds: 5
+      UnhealthyThresholdCount: 2
+      HealthyThresholdCount: 2
+      Name: !Sub ${StackName}-${Environment}-api-tg
+      Port: 80
+      Protocol: HTTP
+      TargetGroupAttributes:
+        - Key: deregistration_delay.timeout_seconds
+          Value: 30
+      TargetType: ip
+      VpcId: !Ref VpcId
+
+  ListenerHTTPS:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions:
+        - TargetGroupArn: !Ref APITargetGroup
+          Type: forward
+      LoadBalancerArn: !Ref LoadBalancer
+      Port: !Ref LoadBalancerPort
+      Protocol: HTTPS
+      SslPolicy: ELBSecurityPolicy-FS-1-2-Res-2020-10
+      Certificates:
+        - CertificateArn: !Ref APICertificate
+
+  APICertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      ValidationMethod: DNS
+      Tags:
+        - Key: Name
+          Value: !Sub "${StackName}-${Environment}-api-cert"
+
+  LoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: !Sub ${StackName}-${Environment}-api-lb
+      Scheme: internet-facing
+      IpAddressType: dualstack
+      LoadBalancerAttributes:
+        - Key: idle_timeout.timeout_seconds
+          Value: 60
+      SecurityGroups:
+        - !Ref LoadBalancerSecurityGroup
+      Subnets: !Split [",", !Ref SubnetIds]
+
+  LoadBalancerSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: !Sub ${StackName}-${Environment}-api-lb-sg
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - Description: "Allow inbound connections via IPv4"
+          IpProtocol: tcp
+          FromPort: !Ref LoadBalancerPort
+          ToPort: !Ref LoadBalancerPort
+          CidrIp: "0.0.0.0/0"
+        - Description: "Allow inbound connections via IPv6"
+          IpProtocol: tcp
+          FromPort: !Ref LoadBalancerPort
+          ToPort: !Ref LoadBalancerPort
+          CidrIpv6: "::/0"
+
+  #
+  # Auto Scale Policy
+  #
+  ScalableTarget:
+    Type: AWS::ApplicationAutoScaling::ScalableTarget
+    DependsOn: ECSService
+    Properties:
+      ResourceId:
+        !Join ["/", [service, !Ref ECSCluster, !GetAtt ECSService.Name]]
+      ScalableDimension: ecs:service:DesiredCount
+      ServiceNamespace: ecs
+      MinCapacity: 1
+      MaxCapacity: 5
+      RoleARN: !GetAtt AutoScalingRole.Arn
+
+  APIScaleUpPolicy:
+    Type: AWS::ApplicationAutoScaling::ScalingPolicy
+    DependsOn: ScalableTarget
+    Properties:
+      PolicyName: !Sub ${StackName}-${Environment}-apiscale-up
+      PolicyType: StepScaling
+      ScalingTargetId: !Ref ScalableTarget
+      StepScalingPolicyConfiguration:
+        AdjustmentType: "ChangeInCapacity"
+        StepAdjustments:
+          - MetricIntervalLowerBound: 0
+            MetricIntervalUpperBound: 15
+            ScalingAdjustment: 1
+          - MetricIntervalLowerBound: 15
+            MetricIntervalUpperBound: 25
+            ScalingAdjustment: 2
+          - MetricIntervalLowerBound: 25
+            ScalingAdjustment: 3
+        MetricAggregationType: "Average"
+        Cooldown: 60
+
+  APIScaleDownPolicy:
+    Type: AWS::ApplicationAutoScaling::ScalingPolicy
+    DependsOn: ScalableTarget
+    Properties:
+      PolicyName: !Sub ${StackName}-${Environment}-api-scale-down
+      PolicyType: StepScaling
+      ScalingTargetId: !Ref ScalableTarget
+      StepScalingPolicyConfiguration:
+        AdjustmentType: "ChangeInCapacity"
+        StepAdjustments:
+          - MetricIntervalUpperBound: 0
+            ScalingAdjustment: -1
+        MetricAggregationType: "Average"
+        Cooldown: 60
+
+  LowCpuUsageAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub ${StackName}-${Environment}-api-alarm-low-cpu
+      AlarmDescription: Low CPU utilization for the API service
+      MetricName: CPUUtilization
+      Namespace: AWS/ECS
+      Statistic: Average
+      Period: 60
+      EvaluationPeriods: 1
+      Threshold: 20
+      ComparisonOperator: LessThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref APIScaleDownPolicy
+
+  HighCpuUsageAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub ${StackName}-${Environment}-api-alarm-high-cpu
+      AlarmDescription: High CPU utilization for the API service
+      MetricName: CPUUtilization
+      Namespace: AWS/ECS
+      Statistic: Average
+      Period: 60
+      EvaluationPeriods: 1
+      Threshold: 70
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref APIScaleUpPolicy
+
+  #
+  # Roles
+  #
+  # A role needed by ECS
+  ExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub ${StackName}-${Environment}-execution-role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: "sts:AssumeRole"
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+
+  # A role for the containers
+  TaskRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub ${StackName}-${Environment}-api-task-role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: "sts:AssumeRole"
+
+  EcsServiceLinkedRole:
+    Type: "AWS::IAM::ServiceLinkedRole"
+    Properties:
+      AWSServiceName: "ecs.amazonaws.com"
+      Description: "Role to enable Amazon ECS to manage your cluster."
+
+  # A role needed for auto scaling
+  AutoScalingRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub ${StackName}-${Environment}-auto-scaling-role
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: "sts:AssumeRole"
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceAutoscaleRole"
+
+Outputs:
+  ECSCluster:
+    Value: !Ref ECSCluster
+  ECSService:
+    Value: !Ref ECSService
+  LoadBalancer:
+    Description: A reference to the Application Load Balancer
+    Value: !Ref LoadBalancer
+  LoadBalancerUrl:
+    Description: The URL of the ALB
+    Value: !GetAtt LoadBalancer.DNSName
+  APICertificate:
+    Value: !Ref APICertificate

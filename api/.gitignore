@@ -1,0 +1,17 @@
+*.swp
+*.swo
+*.out
+/api/docs
+
+.env*
+!.env.example
+.dexrc*.json
+!.dexrc.example.json
+.firebase*.json
+
+test/node_modules
+test/coverage
+test/build
+test/cypress/screenshots
+test/cypress/videos
+test/cypress/logs

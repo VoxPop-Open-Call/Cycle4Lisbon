@@ -1,0 +1,142 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  Contains the resources that are used when distributing the
+  dasboard. Essentially an S3 bucket and a Cloudfront Distribution.
+
+Parameters:
+  Environment:
+    Type: String
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  DomainName:
+    Type: String
+    Description: Frontend Dashboard domain
+  Certificate:
+    Type: String
+
+Resources:
+  # The Amazon S3 bucket into which our Single Page Application build files must be deployed
+  DashboardBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${StackName}-${Environment}-dashboard"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      # Add CORS rules.
+      # Cloudfront does not serve compressed content without this
+      # https://stackoverflow.com/questions/35590622/cloudfront-with-s3-website-as-origin-is-not-serving-gzipped-files
+      CorsConfiguration:
+        CorsRules:
+          - AllowedOrigins:
+              - "*"
+            AllowedHeaders:
+              - "Authorization"
+              - "Content-Length"
+            AllowedMethods:
+              - GET
+            MaxAge: "3600"
+      LifecycleConfiguration:
+        Rules:
+          - Id: "DeleteOldNonCurrentVersions"
+            Status: Enabled
+            # Deletes files after 7 days if they are not the current version
+            NoncurrentVersionExpiration:
+              NoncurrentDays: 7
+      VersioningConfiguration:
+        Status: Enabled
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: "AES256"
+
+  # The Amazon S3 bucket policy for securing the bucket hosting the application
+  # This essentially restricts everyone *except* cloudfront from accessing the files
+  DashboardBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      PolicyDocument:
+        Id: DashboardBucketPolicyAllowCF
+        Version: 2012-10-17
+        Statement:
+          - Sid: PolicyForCloudFrontPrivateContent
+            Effect: Allow
+            Principal:
+              CanonicalUser: !GetAtt DashboardCFOriginAccessIdentity.S3CanonicalUserId
+            Action: "s3:GetObject*"
+            Resource: !Join
+              - ""
+              - - "arn:aws:s3:::"
+                - !Ref DashboardBucket
+                - /*
+      Bucket: !Ref DashboardBucket
+
+  # The Amazon CloudFront distribution exposing our Single Page Application
+  DashboardCFDistribution:
+    Type: AWS::CloudFront::Distribution
+    DependsOn:
+      - DashboardCFOriginAccessIdentity
+    Properties:
+      DistributionConfig:
+        Comment: Cycle for Lisbon Dashboard Dist
+        Aliases:
+          - !Ref DomainName
+        ViewerCertificate:
+          MinimumProtocolVersion: "TLSv1.2_2021"
+          AcmCertificateArn: !Ref Certificate
+          SslSupportMethod: sni-only
+        Origins:
+          - DomainName: !GetAtt DashboardBucket.RegionalDomainName
+            Id: DashboardS3Origin
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub "origin-access-identity/cloudfront/${DashboardCFOriginAccessIdentity}"
+        Enabled: true
+        IPV6Enabled: true
+        HttpVersion: http2and3
+        DefaultRootObject: index.html
+        CustomErrorResponses:
+          - ErrorCachingMinTTL: 300
+            ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCachingMinTTL: 300
+            ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          TargetOriginId: DashboardS3Origin
+          # CachingOptimized
+          # https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-cache-policies.html#managed-cache-caching-optimized
+          CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
+          # CORS-S3Origin
+          # https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-origin-request-policies.html#managed-origin-request-policy-cors-s3
+          OriginRequestPolicyId: 88a5eaf4-2fd4-4709-b370-b4c650ea3fcf
+          ViewerProtocolPolicy: redirect-to-https
+          Compress: true
+        PriceClass: PriceClass_100
+
+  # The Amazon CloudFront origin access identity
+  DashboardCFOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    DependsOn:
+      - DashboardBucket
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: "access-identity-react-cors-spa"
+
+Outputs:
+  DashboardCFDomainName:
+    Value: !GetAtt DashboardCFDistribution.DomainName
+  BucketArn:
+    Value: !GetAtt DashboardBucket.Arn
+  BucketDomainName:
+    Value: !GetAtt DashboardBucket.DualStackDomainName

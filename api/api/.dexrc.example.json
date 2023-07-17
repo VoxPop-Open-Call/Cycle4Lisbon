@@ -1,0 +1,59 @@
+{
+    "issuer": "http://127.0.0.1:8080/dex",
+
+    "staticClients": [
+        {
+            "id": "example-app",
+            "name": "Example App",
+            "secret": "ZXhhbXBsZS1hcHAtc2VjcmV0",
+            "redirectURIs": [
+                "http://127.0.0.1:5555/callback"
+            ]
+        },
+        {
+            "id": "swagger-docs",
+            "name": "Swagger docs",
+            "secret": "jSyynQMRMEQKgFsrDNyRvVbg",
+            "redirectURIs": [
+                "http://localhost:8080/docs/oauth2-redirect.html"
+            ]
+        },
+        {
+            "id": "dashboard",
+            "name": "React Dashboard",
+            "secret": "KlNQCgzZEGwcXErsxNSZlKzH"
+        },
+        {
+            "id": "android-app",
+            "name": "Android App",
+            "secret": "KoXHe6R505MCfDaRpogqTerCTzROJVdq",
+            "redirectURIs": [
+                "cfl://login-callback"
+            ]
+        },
+        {
+            "id": "ios-app",
+            "name": "iOS App",
+            "secret": "tgWwEnh0u7EEBNvtLlFWSC8GNVGW2uJ5",
+            "redirectURIs": [
+                "cfl://login-callback"
+            ]
+        }
+    ],
+
+    "connectors": [
+        {
+            "type": "mockCallback",
+            "id": "mock",
+            "name": "Example"
+        },
+        {
+            "type": "sql",
+            "id": "custom",
+            "name": "email and password",
+            "config":{
+                "usernamePrompt": "Email"
+            }
+        }
+    ]
+}

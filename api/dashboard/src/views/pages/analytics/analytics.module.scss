@@ -1,0 +1,80 @@
+div .pageTitleStyle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #0d3b66;
+  display: flex;
+  justify-content: space-between;
+}
+
+div .metricTypeSelectionDiv {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+div .platformMetricTypeStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+div .activePlatformMetricTypeStyle {
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: default;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+div .activeUserMetricTypeStyle {
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: default;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+div .userMetricTypeStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+div .tripMetricTypeStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid #0d3b66;
+}
+
+div .activeTripMetricTypeStyle {
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: default;
+  border: 1px solid #0d3b66;
+}

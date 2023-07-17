@@ -1,0 +1,134 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Default: cycleforlisbon
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  DashboardDomainName:
+    Type: String
+    Default: dashboard.cycleforlisbon.com
+    Description: Domain name for the dashboard
+  DashboardCertificate:
+    Type: String
+    Default: arn:aws:acm:us-east-1:488723792264:certificate/27e1f0b7-b575-4e0b-9e4b-66b8d8e7e43d
+    Description: Certificate ARN for the dashboard domain
+  APIDomainName:
+    Type: String
+    Default: api.cycleforlisbon.com
+    Description: Domain name for the api
+  SESDomain:
+    Type: String
+    Default: cycleforlisbon.com
+    Description: Domain to use as the SES entity
+  SESFromName:
+    Type: String
+    Default: Cycle for Lisbon
+    Description: The From display name of sent emails
+
+Resources:
+  DashboardCF:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: dashboard.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+        DomainName: !Ref DashboardDomainName
+        Certificate: !Ref DashboardCertificate
+
+  Network:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: network.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+
+  RDS:
+    Type: AWS::CloudFormation::Stack
+    DependsOn: Network
+    Properties:
+      TemplateURL: rds.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+        SubnetIds: !GetAtt Network.Outputs.SubnetIds
+        VpcId: !GetAtt Network.Outputs.VpcId
+
+  SES:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: ses.yaml
+      Parameters:
+        SESDomain: !Ref SESDomain
+
+  S3:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: s3.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+
+  IAM:
+    Type: AWS::CloudFormation::Stack
+    DependsOn:
+      - SES
+      - S3
+    Properties:
+      TemplateURL: iam.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+        FilesBucketName: !GetAtt S3.Outputs.FilesBucketName
+        SESIdentity: !GetAtt SES.Outputs.Identity
+        SESFromName: !Ref SESFromName
+
+  API:
+    Type: AWS::CloudFormation::Stack
+    DependsOn:
+      - Network
+      - RDS
+      - S3
+      - IAM
+    Properties:
+      TemplateURL: api.yaml
+      Parameters:
+        StackName: !Ref StackName
+        Environment: !Ref Environment
+        SubnetIds: !GetAtt Network.Outputs.SubnetIds
+        VpcId: !GetAtt Network.Outputs.VpcId
+        DatabaseSecurityGroupId: !GetAtt RDS.Outputs.SecurityGroup
+        DatabaseSecret: !GetAtt RDS.Outputs.DatabaseSecret
+        DatabaseHost: !GetAtt RDS.Outputs.Host
+        DatabasePort: !GetAtt RDS.Outputs.Port
+        DatabaseName: !GetAtt RDS.Outputs.Name
+        DomainName: !Ref APIDomainName
+        APIAdminUserSecret: !GetAtt IAM.Outputs.APIAdminUserSecret
+        FilesBucketName: !GetAtt S3.Outputs.FilesBucketName
+        SESFromName: !Ref SESFromName
+        SESDomain: !Ref SESDomain
+
+Outputs:
+  DashboardDNSRecord:
+    Description: Add this as a CNAME DNS record
+    Value:
+      !Join [
+        "  ->  ",
+        [
+          !Ref DashboardDomainName,
+          !GetAtt DashboardCF.Outputs.DashboardCFDomainName,
+        ],
+      ]
+
+  APIDNSRecord:
+    Description: Add this as a CNAME DNS record
+    Value:
+      !Join [
+        "  ->  ",
+        [!Ref APIDomainName, !GetAtt API.Outputs.LoadBalancerUrl],
+      ]

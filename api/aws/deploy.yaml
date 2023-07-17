@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Default: cycleforlisbon
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  DashboardDomainName:
+    Type: String
+    Default: dashboard.cycleforlisbon.com
+    Description: Domain name for the dashboard
+  APIDomainName:
+    Type: String
+    Default: api.cycleforlisbon.com
+    Description: Domain name for the api
+
+Resources:
+  DeployBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Sub "${StackName}-${Environment}-deploy"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      LifecycleConfiguration:
+        Rules:
+          - Id: "DeleteOldNonCurrentVersions"
+            Status: Enabled
+            # Deletes files after 5 days
+            ExpirationInDays: 5
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: "AES256"
+
+  DashboardCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DashboardDomainName
+      ValidationMethod: DNS
+      Tags:
+        - Key: Name
+          Value: !Sub "${StackName}-${Environment}-dashboard-cert"
+
+Outputs:
+  DashboardCertificate:
+    Value: !Ref DashboardCertificate

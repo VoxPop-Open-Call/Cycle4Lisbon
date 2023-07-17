@@ -1,0 +1,32 @@
+div .dropdownDivStyle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+tbody .tableRowStyle {
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 15px;
+  color: #474954;
+}
+
+div .containingCard {
+  padding: 0px;
+}
+
+div .containingCardBody {
+  padding: 28px 21px 20px 21px;
+}
+
+div .pageTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1d2127;
+}
+
+div .tableDiv {
+  margin-top: 23px;
+  padding: 0px 16px;
+  background-color: RGBA(250, 248, 239, 0.2);
+  border: none;
+}

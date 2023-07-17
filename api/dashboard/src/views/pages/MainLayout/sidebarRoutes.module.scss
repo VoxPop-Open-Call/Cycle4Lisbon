@@ -1,0 +1,23 @@
+:global .nav-item .nav-link.active {
+  background-color: #ffffff;
+}
+
+:global .nav-item .nav-link.active div {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+:global .nav-item .nav-link div {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+:global .sidebar-nav .nav-item .nav-link.active svg {
+  color: #000000;
+}
+
+:global .nav-item .nav-link svg {
+  color: rgba(0, 0, 0, 0.6);
+}
